@@ -1,0 +1,39 @@
+---
+layout: layouts/detail.njk
+section: post
+---
+
+
+
+
+<article>
+<div class="item blogdetail">
+<h1 class="heading-text">{{ title }}</h1>
+
+
+<div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
+<div class="detailcontent">     
+{{ layoutContent | safe }}</div>
+ <div class="NewsSummaryPrice detail"> 
+ <h4>Pricing</h4>
+{% if time30 %}30 min: {{ time30 }} | {% endif %}{% if time45 %}45 min: {{ time45 }}{% endif %}<br>
+{% if time60 %}60 min: {{ time60 }} | {% endif %}{% if time90 %}90 min: {{ time90 }}{% endif %}
+</div>   
+
+
+  {% if tags %}
+    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/massages/{{ tag }}/{% endset %}
+       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+  {% endif %}
+ 
+<a class="button blogdetail" href="/booking" class="return-link">Make a booking</a>    
+  
+<a class="button blogdetail right" href="/massages" class="return-link">Return to the What we do page</a>    
+</div>
+</article>

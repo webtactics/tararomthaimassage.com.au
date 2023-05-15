@@ -1,0 +1,11 @@
+---
+layout: layouts/default.njk
+section: contact
+class: contact
+---
+<h1>{{ title }}</h1>
+
+{{ layoutContent | safe }}
+
+{% set postslist = collections.massages %}
+{% include "components/postslist.njk" %}

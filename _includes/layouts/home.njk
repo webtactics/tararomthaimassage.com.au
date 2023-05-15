@@ -1,0 +1,16 @@
+{% extends "layouts/default.njk" %}
+
+{% block hero %}
+{% include "components/hero-home.njk" %}
+{% endblock %}
+
+{% block content %}
+<section role="main" class="content">  
+{{ layoutContent | safe }}
+{% set postslist = collections.massages %}
+{% include "components/postslist.njk" %}
+</section>
+{% endblock %}
+
+
+ 

@@ -1,0 +1,40 @@
+<head>
+<meta property="og:url" content="https://www.gtmassage.com.au{{ page.url or post.url or permalink }}" />
+<meta charset="utf-8">
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.gtmassage.com.au/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.gtmassage.com.au/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.gtmassage.com.au/favicon-16x16.png">
+<link rel="manifest" href="https://www.gtmassage.com.au/site.webmanifest">
+<link rel="mask-icon" href="https://www.gtmassage.com.au/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<title>{{ title or metadata.title }}</title>
+
+<meta property="og:title" content="{{ title or metadata.title }}" />
+<meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
+<meta property="og:image" content="{{ image or metadata.image or eleventyComputed.image }}" />
+<meta property="og:url" content="https://www.gtmassage.com.au{{ page.url or post.url or permalink }}" />
+
+
+{% set css %}
+    {% include "assets/css/gtm-grid.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Open+Sans" rel="stylesheet">
+
+
+  {# Uncomment below if you want to include minified inline JavaScript #}
+  {# {% set js %}
+    {% include "assets/js/inline.js" %}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script> #}
+
+
+
+
+</head>
