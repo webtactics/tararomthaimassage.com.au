@@ -1,5 +1,5 @@
 <head>
-<meta property="og:url" content="https://www.tararomthaimassage.com.au/{{ page.url or post.url or permalink }}" />
+<meta property="og:url" content="https://www.tararomthaimassage.com.au{{ page.url or post.url or permalink }}" />
 <meta charset="utf-8">
 <meta name="generator" content="{{ eleventy.generator }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 <meta property="og:title" content="{{ title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
 <meta property="og:image" content="{{ image or metadata.image or eleventyComputed.image }}" />
-<meta property="og:url" content="https://www.tararomthaimassage.com.au/{{ page.url or post.url or permalink }}" />
+<meta property="og:url" content="https://www.tararomthaimassage.com.au{{ page.url or post.url or permalink }}" />
 
 
 {% set css %}
