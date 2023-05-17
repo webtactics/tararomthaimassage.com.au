@@ -327,7 +327,7 @@ span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25re
   color: var(--white);
 }
 
-.button {
+button, .button {
   background-color: var(--primary);
   color: var(--white);
   margin: 0;
@@ -336,7 +336,7 @@ span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25re
   padding:0.5rem 2rem;
 }
 
-.button:focus, .button:hover {
+button:focus, button:hover,.button:focus, .button:hover {
   background-color: var(--black);
   color: var(--white);
 }
