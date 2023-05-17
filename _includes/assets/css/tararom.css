@@ -2,8 +2,8 @@
 
 
 :root {
-	--primary: hsla(16, 25%, 38%, 1);
-  --primarylight: hsla(16, 25%, 38%, 0.6);
+	--primary: hsla(203, 70%, 46%, 1);
+  --primarylight: hsla(203, 70%, 46%, 0.5);
 	--white: #ffffff;
 	--background: #FFF0EB;
 	--red: #D90000;
