@@ -5,6 +5,8 @@ description: This is a sample meta description. If one is not present in your pa
 section: contact
 date: 2023-01-01
 permalink: /booking/
+parent: null
+hasChildren: false
 eleventyNavigation:
   key: Booking
   order: 2

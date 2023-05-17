@@ -7,5 +7,7 @@ permalink: /massages/
 eleventyNavigation:
   key: Massages
   order: 3
+parent: null
+hasChildren: false
 ---
 
