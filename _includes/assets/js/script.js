@@ -29,35 +29,19 @@ const toggleButton = document.querySelector('.toggle-nav');
   });
   
 
+const header = document.querySelector('.topbar');
+const scrollWatcher = document.createElement('div');
+
+scrollWatcher.setAttribute('data-scroll-watcher', '');
+header.before(scrollWatcher);
+
+const navObserver = new IntersectionObserver((entries) => {
+header.classList.toggle('scrolled', !entries[0].isIntersecting)
+
+  }, {rootMargin: "200px 0px 0px 0px"});
+navObserver.observe(scrollWatcher)
 
 
 
-window.addEventListener('scroll', function() {
-  const logo = document.querySelector('.topbar');
-
-  if (window.scrollY > 150) { // Check if the user has scrolled 50 pixels or more
-    logo.classList.add('scrolled');
-  } else {
-    logo.classList.remove('scrolled');
-  }
-});
 
 
-$(document).ready(function(){
-	
-	//Check to see if the window is top if not then display button
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-	
-});

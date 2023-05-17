@@ -5,7 +5,7 @@
 
 	
 <body class=" {{ class }} internal" >
-
+{% include "components/header.njk" %}
   {% include "components/off-canvas.njk" %}
   {% block hero %}
   {% include "components/hero.njk" %}
@@ -13,7 +13,7 @@
 
 <div class="container">
    
-{% include "components/header.njk" %}
+
   {% block content %}
 <section role="main" class="content">  
 {{ layoutContent | safe }}
