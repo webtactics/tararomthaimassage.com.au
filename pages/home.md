@@ -1,8 +1,8 @@
 ---
 layout: layouts/home.njk
-title: Gloucester Thai Massage
+title: Tararom Authentic Thai Massage
 date: 2023-04-22T00:00:00.000Z
-description: Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and we take great pride in our massages and service.
+description: We offer you a variety of treatments to unwind the stress of your mind, your body and soul. All services are provided by well trained and experienced therapists.
 permalink: /
 eleventyNavigation:
   key: Home
@@ -10,8 +10,12 @@ eleventyNavigation:
 parent: null
 hasChildren: false
 ---
-# Gloucester Thai Massage
-**Joy from Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and takes great pride in her massages and service.**
-To book a massage please call Joy on [0411 447 704](tel:+61411447704), use our [booking page](/booking/) or email [joy@gtmassage.com.au](mailto:joy@gtmassage.com.au)
+# Tararom Authentic Thai Massage
 
-### Our Services and massages:
+	
+## You can enjoy and relax in the ultimate peaceful environment.
+
+We offer you a variety of treatments to unwind the stress of your mind, your body and soul. All services are provided by well trained and experienced therapists.
+
+### Feel relaxed at Tararom Authentic Thai Massage
+
