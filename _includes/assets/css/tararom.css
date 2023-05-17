@@ -819,7 +819,7 @@ form label {
 
 input,
 textarea,
-button {
+ {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
@@ -831,14 +831,6 @@ input,
 textarea {
 	border: 1px solid black;
 }
-
-button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
-}
-
 
 
 
