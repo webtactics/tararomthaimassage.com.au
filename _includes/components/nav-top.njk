@@ -1,15 +1,17 @@
-<!-- _includes/navigation.njk -->
 <nav class="childlist">
+{% set navPages = collections.all | eleventyNavigation %}
+{% macro renderNavListItem(entry) -%}
+<li{% if entry.url == page.url %} class="active-class"{% endif %}>
+  <a href="{{ entry.url }}">{{ entry.title }}</a>
+{%- if entry.children.length -%}
 <ul class="main-menu">
-    {% for navItem in collections.nav | navigation(parent) %}
-      <li><a href="{{ navItem.url }}">{{ navItem.data.title }}</a></li>
-      {% if navItem.children.length > 0 %}
-        <ul>
-          {% for childItem in navItem.children %}
-            <li><a href="{{ childItem.url }}">{{ childItem.data.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endfor %}
+    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
   </ul>
+{%- endif -%}
+</li>
+{%- endmacro %}
+
+<ul class="main-menu">
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>
 </nav>
