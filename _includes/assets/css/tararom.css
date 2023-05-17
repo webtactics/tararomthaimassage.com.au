@@ -818,19 +818,22 @@ form label {
 }
 
 input,
-textarea,
+textarea
  {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+
 }
 
 input,
 textarea {
-	border: 1px solid black;
+	border: 1px solid var(--primary);
 }
+
+
+
 
 
 
