@@ -8,6 +8,7 @@ permalink: /contact/
 eleventyNavigation:
   key: Contact
   order: 4
+parent: null
 hasChildren: true
 ---
 

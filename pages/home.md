@@ -7,6 +7,8 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+parent: null
+hasChildren: false
 ---
 # Gloucester Thai Massage
 **Joy from Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and takes great pride in her massages and service.**
