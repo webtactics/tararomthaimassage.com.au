@@ -83,6 +83,10 @@ module.exports = (eleventyConfig) => {
 };
 
 
+// Set the input and output directories
+eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
+eleventyConfig.addWatchTarget("./_includes/");
+
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
