@@ -1,7 +1,7 @@
 ---
 title: Wat Pho Traditional Thai Massage
 author: Paul Goldsmith
-date: 2023-04-19
+date: 2023-05-12
 tags:
   - 30-min
   - 45-min
