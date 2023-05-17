@@ -824,17 +824,10 @@ textarea
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-
-}
-
-input,
-textarea {
 	border: 1px solid var(--primary);
 }
 
-
-
-
+button.button.success {cursor: pointer;}
 
 
 .scrollToTop {
