@@ -1,18 +1,17 @@
+ <!-- _includes/navigation.njk -->
 <nav class="childlist">
 <ul class="main-menu">
     {% for page in collections.pages %}
-      {% if page.data.parent == null %}
-        <li>
-          <a href="{{ page.url }}">{{ page.data.title }}</a>
-          {% if page.data.hasChildren %}
-            <ul>
-              {% for childPage in collections.pages %}
-                {% if childPage.data.parent == page.fileSlug %}
-                  <li><a href="{{ childPage.url }}">{{ childPage.data.title }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          {% endif %}
+      {% if page.url == '/' %}
+        <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+      {% else %}
+        <li class="dropdown">
+          <a href="{{ page.url }}" class="dropdown-toggle">{{ page.data.title }}</a>
+          <ul class="dropdown-menu">
+            {% for childPage in page.children %}
+              <li><a href="{{ childPage.url }}">{{ childPage.data.title }}</a></li>
+            {% endfor %}
+          </ul>
         </li>
       {% endif %}
     {% endfor %}
