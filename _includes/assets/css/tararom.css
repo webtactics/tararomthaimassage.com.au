@@ -605,7 +605,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   margin: 0 auto;
   text-align: center;}
   .homebooklogo h1 {font-size: 4rem;
-    line-height: 2rem;
+    line-height: 1;
     background-color: var(--primary30);
     color: var(--white);
     max-width: 500px;
