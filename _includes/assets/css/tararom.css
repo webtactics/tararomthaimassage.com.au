@@ -617,7 +617,7 @@ align-content: center;}
 }
 .content {
 position: relative;
-margin: -20vh auto 0 auto;
+margin: 0 auto;
 padding: 1rem;
 z-index: 2;
 max-width: 1280px;
@@ -629,12 +629,14 @@ background-color: var(--white);
 .massage-detail  .container { margin: -60vh auto 0 auto;}
 
 .internal .content {
-  margin: auto 0 ;
+  margin: 0 auto ;
   background-color: var(--white);
+  max-width: 1280px;
   }
 .massage-detail .content {
   margin: -60vh auto 0 auto;
     background-color: var(--white);
+    max-width: 1280px;
     }
 
 @media (max-width: 1024px) {
