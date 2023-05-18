@@ -639,6 +639,11 @@ background-color: var(--white);
     max-width: 1280px;
     }
 
+.tagcontent {
+      margin: 0 auto;
+        max-width: 1280px;
+        }
+
 @media (max-width: 1024px) {
 .content {padding: 1rem 0.5rem;}
 
