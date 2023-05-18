@@ -613,6 +613,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
     padding: 0.5rem 0;
     text-align: center;
     font-family: 'Teko', sans-serif;
+    text-shadow: 2px 2px 4px var(--black);
   }
 
 .homebooklogo h2 {font-size: 2.8rem;
