@@ -877,3 +877,18 @@ button.button.success {cursor: pointer;}
   background: #000000 url(https://ik.imagekit.io/webtactics/gtm/assets/to-top_pZCu6b8pa.png?updatedAt=1683952481082) no-repeat center center;
   text-indent: -9999px;
 }
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
