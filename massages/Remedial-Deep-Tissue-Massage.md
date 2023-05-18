@@ -1,7 +1,7 @@
 ---
 title: Remedial / Deep Tissue Massage
 author: Paul Goldsmith
-date: 2023-05-15
+date: 2023-05-17
 tags:
   - 30-min
   - 45-min
