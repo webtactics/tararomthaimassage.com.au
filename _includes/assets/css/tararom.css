@@ -344,7 +344,7 @@ button:focus, button:hover,.button:focus, .button:hover {
 }
 button.success, .button.success {
   background-color: var(--primary);
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primary50);
   color: var(--white);
   font-size: 1.3rem;
   padding: 0.5rem 2rem;
@@ -354,7 +354,7 @@ button.success, .button.success {
 }
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   background-color: var(--white);
-  border: 1px solid var(--black);
+  border: 1px solid var(--primary);
   color: var(--primary);
 }
 
@@ -773,7 +773,7 @@ grid-template-columns: 2fr 1fr;}
    transition: box-shadow 0.2s ease-in-out;
    border: 1px solid var(--black);
 }
-.NewsSummaryHome h2 {font-size: 1.4rem;line-height: 1.2;font-weight:400;}
+.NewsSummaryHome h2 {font-size: 2rem;line-height: 1.2;font-weight:400;}
 .NewsSummaryHome h2 a {border:none;}
 .NewsSummaryHome h2 a:hover {border:none;}
 
