@@ -606,6 +606,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   text-align: center;}
   .homebooklogo h1 {font-size: 4rem;
     background-color: var(--primary30);
+    color: var(--white);
     max-width: 500px;
     margin: 0 auto;
     padding: 0.75rem 0 0;
@@ -613,8 +614,9 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
     font-family: 'Teko', sans-serif;
   }
 
-.homebooklogo h2 {font-size: 3rem;
-  background-color: var(--white);
+.homebooklogo h2 {font-size: 2.8rem;
+  background-color: var(--primary30);
+  color: var(--white);
   max-width: 500px;
   margin: 0 auto;
   padding: 0.5 0 0.75rem 0;
