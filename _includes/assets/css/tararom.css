@@ -5,12 +5,13 @@
   --primary60: hsla(203, 70%, 46%, 0.6);
   --primary75: hsla(203, 70%, 46%, 0.75);
 	--white: #ffffff;
+  --text: rgba(129,129,129,1.00);
 	--background: #FFF0EB;
 	--red: #D90000;
   --black: #000000;
   --grey: #ebebeb;
   --green: hsla(144, 80%, 22%, 1);
-  --text: rgba(129,129,129,1.00)
+ 
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -27,7 +28,8 @@ scroll-behavior: smooth;
 }
   
 
-img, svg, video {max-width: 100%;display: block;}
+img, svg, video {max-width: 100%;display: block;height: auto;}
+
 
 a img {border: 0;}
 
@@ -59,7 +61,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 h1.heading-text {
   color: var(--primary);
   line-height: 3rem;
-  font-family: 'Teko', sans-serif;
   font-size: 3rem;
   text-align: left;
   text-transform: capitalize;
@@ -75,10 +76,6 @@ h1.heading-text {
 }
 
 
-.h2, h2 {
-  font-size: 2.4rem;
-}
-
 .h3, h3 {
   font-size: 1.9375rem;
 }
@@ -92,11 +89,12 @@ font-size: 1.2rem;
   font-size: 1.5625rem;
 }
 
-p {font-family: 'Open Sans', sans-serif;
+p {
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
-  font-weight: normal;
-  color: #333333;
-  text-rendering: optimizeLegibility;}
+font-weight: normal;
+color: var(--text);
+text-rendering: optimizeLegibility;}
 
 
   strong {
