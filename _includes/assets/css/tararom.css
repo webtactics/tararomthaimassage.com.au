@@ -634,7 +634,7 @@ background-color: var(--white);
 }
 
 .container { margin: -40vh auto 0 auto;}
-.home .container { margin: 0 auto 0 auto;}
+.home .container { margin: -30vh auto 0 auto;}
 .massage-detail  .container { margin: -60vh auto 0 auto;}
 
 .internal .content {
