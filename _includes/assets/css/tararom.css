@@ -952,3 +952,7 @@ button.button.success {cursor: pointer;}
 
 .slick-arrow.slick-hidden {
   display: none; }
+
+  .internalhero {
+    height: 100vh;
+  }
