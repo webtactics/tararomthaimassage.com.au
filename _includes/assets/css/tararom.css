@@ -624,8 +624,12 @@ max-width: 1280px;
 background-color: var(--white);
 }
 
+.container { margin: -40vh auto 0 auto;}
+.home .container { margin: -10vh auto 0 auto;}
+.massage-detail  .container { margin: -60vh auto 0 auto;}
+
 .internal .content {
-  margin: -40vh auto 0 auto;
+  margin: auto 0 ;
   background-color: var(--white);
   }
 .massage-detail .content {
