@@ -604,9 +604,9 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   max-width: 500px;
   margin: 0 auto;
   text-align: center;}
-.homebooklogo h1 { margin: 0;}
+.homebooklogo h1,
 .homebooklogo h2 {
-  background-color: #ffffff;
+  background-color: var(--white);
   max-width: 500px;
   margin: 0 auto;
   padding: 0.75rem 0;
