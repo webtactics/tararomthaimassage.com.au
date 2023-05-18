@@ -7,11 +7,9 @@ class: contact
 
 {{ layoutContent | safe }}
 
-{% set postslist = collections.massages %}
-{% include "components/postslist.njk" %}
+
 
 {% set postslist = collections.treatments %}
 {% include "components/postslist.njk" %}
 
-{% set postslist = collections.all %}
-{% include "components/postslist.njk" %}
+
