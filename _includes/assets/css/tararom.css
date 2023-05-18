@@ -1,13 +1,16 @@
 :root {
 	--primary: hsla(203, 70%, 46%, 1);
-  --primarylight: hsla(203, 70%, 46%, 0.5);
+  --primary50: hsla(203, 70%, 46%, 0.5);
   --primary30: hsla(203, 70%, 46%, 0.3);
+  --primary60: hsla(203, 70%, 46%, 0.6);
+  --primary75: hsla(203, 70%, 46%, 0.75);
 	--white: #ffffff;
 	--background: #FFF0EB;
 	--red: #D90000;
   --black: #000000;
   --grey: #ebebeb;
   --green: hsla(144, 80%, 22%, 1);
+  --text: rgba(129,129,129,1.00)
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -340,7 +343,7 @@ button:focus, button:hover,.button:focus, .button:hover {
   color: var(--white);
 }
 button.success, .button.success {
-  background-color: var(--primarylight);
+  background-color: var(--primary);
   border-width: 0.1rem;
   border-color: var(--primary);
   color: var(--white);
@@ -351,10 +354,10 @@ button.success, .button.success {
   text-decoration:none;
 }
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--primary75);
+  color: var(--black);
   border-width: 0.1rem;
-  border-color: var(--white);
+  border-color: var(--black);
 }
 
 
@@ -756,10 +759,10 @@ grid-template-columns: 2fr 1fr;}
 .NewsSummaryLinkHome {padding:0.5rem 0 0 0;}
 .NewsSummaryPrice {font-size:0.85rem;color:var(--green);padding:0.5rem 0;}
 .NewsSummarySummaryHome {color:rgba(129,129,129,1.00);padding:0.5rem 0;min-height:150px;font-size:1rem;}
-.newssumbutton {margin:-2rem 0 0 0;}
+.newssumbutton {margin:2rem 0 0 0;}
 
 .NewsSummaryHome {
-  margin: 0 0 1.8750rem 0;
+  margin: 0 0 1rem 0;
    padding: 0.75rem;
    background-color: var(--white);
    border: 1px solid var(--primary);
