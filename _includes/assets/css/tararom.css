@@ -42,7 +42,7 @@ background: var(--primary);
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Teko', sans-serif;
   font-style: normal;
   font-weight: normal;
   color: var(--primary);
@@ -55,7 +55,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 h1.heading-text {
   color: var(--primary);
   line-height: 3rem;
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 3rem;
   text-align: left;
   text-transform: capitalize;
