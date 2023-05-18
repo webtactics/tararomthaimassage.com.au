@@ -646,11 +646,13 @@ background-color: var(--white);
   margin: -70vh auto 0 auto;
     background-color: var(--white);
     }
-
-
 }
 
-
+.blue {
+  background-color: var(--primary);
+  padding: 1rem 0 1rem 0;
+  color: var(--white);
+}
 .footer {
   background-color: var(--primary);
   padding: 1rem 0;
