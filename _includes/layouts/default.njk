@@ -3,24 +3,23 @@
 
 {% include "components/head.njk" %}
 
-	
-<body class=" {{ class }} internal" >
+{% block bodyclass %}<body class=" {{ class }} internal" >{% endblock %}
+
 {% include "components/header.njk" %}
-  {% include "components/off-canvas.njk" %}
-  {% block hero %}
-  {% include "components/hero.njk" %}
-  {% endblock %}
 
-<div class="container">
-   {% block tagline %}{% endblock %}
+{% include "components/off-canvas.njk" %}
 
-  {% block content %}
+{% block hero %}{% include "components/hero.njk" %}{% endblock %}
+
+<div class="container">{% block tagline %}{% endblock %}
+
+{% block content %}
 <section role="main" class="content">  
 {{ layoutContent | safe }}
 </section>
 {% endblock %}
 
-  {% include "components/footer.njk" %}
+{% include "components/footer.njk" %}
 </div>
 {% include "components/javascript.njk" %}
 
