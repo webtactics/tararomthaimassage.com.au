@@ -599,11 +599,12 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   text-align: center;
 
 }
+
 .homebooklogo img { 
   max-width: 500px;
   margin: 0 auto;
   text-align: center;}
-
+.homebooklogo h1 { margin: 0;}
 .homebooklogo h2 {
   background-color: #ffffff;
   max-width: 500px;
