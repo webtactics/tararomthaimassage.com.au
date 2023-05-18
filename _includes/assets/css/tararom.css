@@ -1,9 +1,7 @@
-
-
-
 :root {
 	--primary: hsla(203, 70%, 46%, 1);
   --primarylight: hsla(203, 70%, 46%, 0.5);
+  --primary30: hsla(203, 70%, 46%, 0.3);
 	--white: #ffffff;
 	--background: #FFF0EB;
 	--red: #D90000;
@@ -387,7 +385,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 }
 .topbar {
   position: fixed;
-  background-color: rgba(0,0,0,0.30);
+  background-color: var(--primary30);
   width: 100%;
   padding: 0;
   top: 0;
