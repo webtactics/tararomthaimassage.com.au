@@ -344,7 +344,7 @@ button:focus, button:hover,.button:focus, .button:hover {
 }
 button.success, .button.success {
   background-color: var(--primary);
-  border-width: 0.1rem;
+  border-width: 1px;
   border-color: var(--primary);
   color: var(--white);
   font-size: 1.3rem;
@@ -354,9 +354,9 @@ button.success, .button.success {
   text-decoration:none;
 }
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: var(--primary75);
+  background-color: var(--primary50);
   color: var(--black);
-  border-width: 0.1rem;
+  border-width: 2px;
   border-color: var(--black);
 }
 
