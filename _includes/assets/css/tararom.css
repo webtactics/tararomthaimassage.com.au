@@ -597,10 +597,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
   height: 130px;
   width: 100%;
   text-align: center;
-  display: flex;
-align-items: center;
-justify-content: center;
-align-content: center;
+
 }
 .homebooklogo img { 
   max-width: 500px;
