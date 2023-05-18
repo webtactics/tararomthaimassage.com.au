@@ -43,17 +43,5 @@ navObserver.observe(scrollWatcher)
 
 
 
-$('.home-slide').slick({
-  autoplay: true,
-  infinite: true,
-  pauseOnHover: true,
-  swipeToSlide: true,
-  autoplaySpeed: 6000,
-  speed: 3000,
-  arrows: false,
-  dots: true,
-  fade: true,
-  cssEase: 'ease'
-    
-  });
+
 
