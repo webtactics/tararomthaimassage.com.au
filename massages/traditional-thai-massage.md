@@ -19,5 +19,4 @@ time90: $90.00
 time120: $120.00
 ---
 
-Pressure point, gentle twisting and stretching techniques to reduce stress and relieve muscle soreness
-
+Pressure point, gentle twisting and stretching techniques to reduce stress and relieve muscle soreness.

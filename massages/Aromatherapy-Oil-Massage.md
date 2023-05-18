@@ -20,6 +20,3 @@ time120: $135.00
 ---
 
 This massage is based on natural oil, relaxing strokes dancing like waves along the curves of your body. A gently massage designed to relax soft body tissue and facilitate healing.
-
-
-
