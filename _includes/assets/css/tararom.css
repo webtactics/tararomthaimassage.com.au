@@ -826,6 +826,8 @@ margin:0 0 1rem 0;
   margin-top: 1rem;
 }
 .pricesumpic {margin:0 0 1rem 0;}
+.grid-detailpage-sidebar-summary:hover img {
+filter: brightness(1.2);}
 
 .right {float:right;text-align:right;}
 
