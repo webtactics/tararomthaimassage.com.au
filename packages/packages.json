@@ -1,9 +1,9 @@
 {
     "layout": "layouts/post.njk",
-    "permalink": "treatments/{{ title | slug }}/index.html",
+    "permalink": "packages/{{ title | slug }}/index.html",
     "author": "Anonymous",
     "tags": [
-      "treatments"
+      "packages"
     ]
   }
   
