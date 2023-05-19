@@ -26,7 +26,7 @@
 
 
 <h3>Our 60 min massages</h3>
-{%- for post in collections.60-min | reverse | limit(3) -%} 
+{% set postslist = collections.60-min | reverse | limit(3) -%} 
 {% include "components/postslist.njk" %}
   {%- endfor -%}
 </section>
