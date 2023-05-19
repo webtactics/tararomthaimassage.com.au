@@ -788,6 +788,7 @@ grid-template-columns: 2fr 1fr;}
 display: -webkit-box;
 -webkit-line-clamp: 3;
 -webkit-box-orient: vertical;  
+overflow: hidden;
 }
 
 
