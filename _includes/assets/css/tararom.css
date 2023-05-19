@@ -55,6 +55,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: var(--primary);
   text-rendering: optimizeLegibility;
   margin:0 0 0.75rem;padding:0;
+  line-height:1;
 }
 
 .largetext {font-size: 200%;}
@@ -779,7 +780,7 @@ grid-template-columns: 2fr 1fr;}
 
 .NewsSummaryLinkHome {padding:0;}
 .NewsSummaryPrice {font-size:0.8rem;color:var(--primary);padding:0.25rem 0 0 0;display:block;min-height:150px;}
-.NewsSummaryPrice h4 {margin:0;padding:0;}
+.NewsSummaryPrice h4 {margin:0;padding:0;line-height:1;}
 ..detailpagesummary .NewsSummaryPrice {font-size:0.75rem;color:var(--primary);padding:0;}
 span.timecostmin {min-width: 60px;display:inline-block;}
 
