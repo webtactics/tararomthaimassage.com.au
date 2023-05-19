@@ -776,8 +776,8 @@ grid-template-columns: 2fr 1fr;}
    border: 1px solid var(--primary);
 
 }
-.NewsSummaryHome h2 {font-weight:400;border:none;margin:0;padding:0.5rem;line-height:2rem;font-size:2rem;display: block;}
-.NewsSummaryHome h2 a {border:none;}
+.NewsSummaryHome h2 {font-weight:400;border:none;margin:0;padding:0.5rem;line-height:2rem;font-size:2rem;display: block;width:auto;}
+.NewsSummaryHome h2 a {border:none;display: block;width:auto;}
 .NewsSummaryHome h2 a:hover {border:none;}
 
 .NewsSummaryHome h3 {font-size: 1.2rem;line-height: 1.2;}
