@@ -824,7 +824,7 @@ margin:0 0 1rem 0;
   border-bottom: 2px solid var(--primary);
   margin-top: 1rem;
 }
-.pricesumpic {margin:0 0 1rem 0;}
+.pricesumpic {margin:0;}
 
 .right {float:right;text-align:right;}
 
