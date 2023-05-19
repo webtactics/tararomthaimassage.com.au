@@ -754,7 +754,7 @@ grid-template-columns: 2fr 1fr;}
 .CGBlogSummaryField:hover .image-overlay .overlay-icon{opacity:1;margin:70px auto 0}.CGBlogSummaryField .image-overlay .overlay-icon img{width:70px;height:70px}
 
 .NewsSummaryLinkHome {padding:0;}
-.NewsSummaryPrice {font-size:0.8rem;color:var(--green);padding:0.4rem 0;}
+.NewsSummaryPrice {font-size:0.8rem;color:var(--green);padding:0.4rem 0 1rem 0;}
 .NewsSummarySummaryHome {color:var(--text);padding:0;font-size:0.9rem;min-height: 73px;}
 .newssumbutton {margin:0;}
 
