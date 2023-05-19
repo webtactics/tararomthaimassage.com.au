@@ -802,10 +802,9 @@ margin:0 0 1rem 0;
 }
 
 
-  .pricelistsum h3 {font-weight:400;border:none;margin:0;padding:0;line-height:1;font-size:1.3rem;display: block;width:auto;}
-  .pricelistsum h3 a {border:none;padding:0.25rem;line-height:1;font-size:1.3rem;display: block;width:auto;transition: all 0.5s;
-    cursor: pointer;}
-    .pricelistsum h3 a:hover {border:none;}
+  .pricelistsum h3 {font-weight:400;border:none;margin:0;padding:0;line-height:1;font-size:1.3rem;}
+  .pricelistsum h3 a {border:none;padding:0.25rem;line-height:1;font-size:1.3rem;}
+  .pricelistsum h3 a:hover {border:none;}
 
 .detailcontent {
   text-align: justify;
