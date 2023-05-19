@@ -6,36 +6,20 @@
 	
 
 <div class="CGBlogSummaryField">
-<a href="{{ post.url | url }}"  title="{{ post.data.title }}" alt="{{ post.data.title }}"><img src="{{ post.data.image }}/tr:w-450,h-270" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
-<span class="image-overlay">
-<span class="overlay-icon"><img src="/static/img/assets/tararom-square-logo.jpg" /></span></span></a>
+<img src="{{ post.data.image }}/tr:w-400,h-400" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
 </div>
 
 
 <div class="NewsSummaryLinkHome">
-<h2><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >{{ post.data.title }}</a></h2>
+<h2>{{ post.data.title }}</h2>
 </div>
-
-<div class="NewsSummaryPrice">  
- <h4>Pricing</h4>
-<div class="grid-timecost"> 
-{% if post.data.time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ post.data.time30 }}</div>{% endif %}
-{% if post.data.time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ post.data.time45 }}</div>{% endif %}
-{% if post.data.time60 %}<div class="timecostwrapper"><span class="timecostmin">60 min:</span>{{ post.data.time60 }}</div>{% endif %}
-{% if post.data.time90 %}<div class="timecostwrapper"><span class="timecostmin">90 min:</span>{{ post.data.time90 }}</div>{% endif %}
-{% if post.data.time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ post.data.time120 }}</div>{% endif %}
-</div>
-</div>				
-
-
-
 <div class="NewsSummarySummaryHome">
 {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
 </div>
+<div class="NewsSummaryPrice">  
+{% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
+</div>				
 
-<div class="right newssumbutton">
-<a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
-</div>
 
 
 

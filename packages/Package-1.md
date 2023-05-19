@@ -9,7 +9,7 @@ description: 90 minutes of massage including 60 minutes of Traditional Thai Mass
 price: $95.00
 ---
 
-90 minutes of massage including:
+**90 minutes of massage including:**
 
-60 minutes:  Traditional Thai Massage plus
-30 minutes:  Aroma Oil Massage
+60 minutes:  [Traditional Thai Massage](/treatments/traditional-thai-massage/) plus
+30 minutes:  [Aroma Oil Massage](//treatments/aromatherapy-oil-massage/)
