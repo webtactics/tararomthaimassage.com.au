@@ -818,7 +818,7 @@ span.timecostmin {min-width: 60px;display:inline-block;}
 .NewsSummaryHome h3 a {border-bottom:1px dotted var(--black);}
 .NewsSummaryHome h3 a:hover {border-bottom:1px solid var(--black);}
 
-.NewsSummaryHome p {
+.NewsSummarySummaryHome p {
 display: -webkit-box;
 -webkit-line-clamp: 3;
 -webkit-box-orient: vertical;  
