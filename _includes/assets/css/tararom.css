@@ -774,10 +774,10 @@ grid-template-columns: 2fr 1fr;}
    -o-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
    border: 1px solid var(--primary);
-   transform: scale(1.005);
+
 }
 .NewsSummaryHome h2 {font-size: 2rem;line-height: 1;font-weight:400;margin:0;padding:0;}
-.NewsSummaryHome h2 a {border:none;margin:0;padding:0;line-height:2rem;}
+.NewsSummaryHome h2 a {border:none;margin:0;padding:0.5rem;line-height:2rem;}
 .NewsSummaryHome h2 a:hover {border:none;margin:0;padding:0;line-height:2rem;}
 
 .NewsSummaryHome h3 {font-size: 1.2rem;line-height: 1.2;}
