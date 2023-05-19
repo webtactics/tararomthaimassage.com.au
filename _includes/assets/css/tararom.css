@@ -41,10 +41,10 @@ a {
 }
 
 a:hover {
-  color: var(--white);
-  border: none;
+color: var(--white);
+border: none;
 background: var(--primary);
-  background-color: var(--primary);
+
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -777,7 +777,8 @@ grid-template-columns: 2fr 1fr;}
 
 }
 .NewsSummaryHome h2 {font-weight:400;border:none;margin:0;padding:0;line-height:2rem;font-size:2rem;display: block;width:auto;}
-.NewsSummaryHome h2 a {border:none;padding:0.5rem;line-height:2rem;font-size:2rem;display: block;width:auto;}
+.NewsSummaryHome h2 a {border:none;padding:0.5rem;line-height:2rem;font-size:2rem;display: block;width:auto;transition: all 0.5s;
+  cursor: pointer;}
 .NewsSummaryHome h2 a:hover {border:none;}
 
 .NewsSummaryHome h3 {font-size: 1.2rem;line-height: 1.2;}
