@@ -1,19 +1,17 @@
-{% extends "layouts/default.njk" %}
+---
+layout: layouts/default.njk
+section: promotions
+class: promotions
+---
+<h1>{{ title }}</h1>
 
-
-{% block bodyclass %}<body class=" {{ class }} home" >{% endblock %}
-
-{% block hero %}
-{% include "components/hero-home.njk" %}
-{% endblock %}
-
-
-
-
-
-{% block content %}
-<section role="main" class="content">  
 {{ layoutContent | safe }}
+
+
+
+
+
+
 <h3>Promotions & Special Packages</h3>
 {% set postslist = collections.promotions %}
 {% include "components/postslist.njk" %}
@@ -23,8 +21,4 @@
 <h3>Our Treatments and massages</h3>
 {% set postslist = collections.treatments %}
 {% include "components/postslist.njk" %}
-</section>
-{% endblock %}
 
-
- 
