@@ -755,7 +755,7 @@ grid-template-columns: 2fr 1fr;}
 
 .NewsSummaryLinkHome {padding:0;}
 .NewsSummaryPrice {font-size:0.8rem;color:var(--green);padding:0.4rem 0 1rem 0;display:block;}
-span.timecostmin {min-width: 130px;display:inline-block;}
+span.timecostmin {min-width: 110px;display:inline-block;}
 span.timecostborder{padding:0 0.5rem;}
 
 
