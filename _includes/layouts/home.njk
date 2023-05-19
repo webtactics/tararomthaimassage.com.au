@@ -14,6 +14,13 @@
 {% block content %}
 <section role="main" class="content">  
 {{ layoutContent | safe }}
+<h3>Promotions</h3>
+{% set postslist = collections.promotions %}
+{% include "components/postslist.njk" %}
+<h3>Packages</h3>
+{% set postslist = collections.packages %}
+{% include "components/postslist.njk" %}
+<h3>Treatments</h3>
 {% set postslist = collections.treatments %}
 {% include "components/postslist.njk" %}
 </section>
