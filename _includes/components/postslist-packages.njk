@@ -14,13 +14,12 @@
 <h2>{{ post.data.title }}</h2>
 </div>
 <div class="packagesummary">
-{% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+{% if post.data.content %}{{ post.data.content | safe }}{% endif %}
 </div>
 <div class="packageprice">  
 {% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
 </div>				
 
-{{ post.data.content | safe }}
 
 
 		</article>
