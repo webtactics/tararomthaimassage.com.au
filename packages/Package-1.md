@@ -7,6 +7,7 @@ image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Mass
 imageAlt: Package 1
 description: 90 minutes of massage including 60 minutes of Traditional Thai Massage plus 30 minutes of Aroma Oil Massage
 price: $95.00
+content: package1
 ---
 
 **90 minutes of massage including:**
