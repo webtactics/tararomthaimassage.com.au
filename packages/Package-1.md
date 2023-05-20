@@ -12,5 +12,8 @@ content: package1
 
 **90 minutes of massage including:**
 
-60 minutes:  [Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
-30 minutes:  [Aroma Oil Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/)
+60 minutes:  
+[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
+
+30 minutes:  
+[Aroma Oil Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/)
