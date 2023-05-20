@@ -40,6 +40,9 @@ section: post
     {% endfor %}
     </div>
   {% endif %}
+
+{% if gallery %}{% include "components/{{ gallery  }}.njk" %}{% endif %}
+
  
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
