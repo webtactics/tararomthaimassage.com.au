@@ -41,7 +41,8 @@ section: post
     </div>
   {% endif %}
 
-{% if gallery %}{% include "{{ gallery }}" %}{% endif %}
+
+{% render '{{ gallery }}' %}
 
  
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
