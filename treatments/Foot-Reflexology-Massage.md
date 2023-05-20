@@ -4,6 +4,7 @@ author: Paul Goldsmith
 date: 2023-05-14
 tags: 
   - featured
+  - foot-reflex
   - 30-min
   - 45-min
   - 60-min
