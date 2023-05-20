@@ -9,7 +9,9 @@ description: 90 minutes of massage including 60 minutes of Aroma Relaxing Massag
 price: $105.00
 ---
 
-90 minutes of massage including:
+**90 minutes of massage including:**
 
-60 minutes:  Aroma Relaxing Massage  plus
-30 minutes:  Foot Reflexology Massage 
+60 minutes:  
+[Aromatherapy Oil Massage](https://tararom-thai.netlify.app/treatments/aromatherapy-oil-massage/) plus
+30 minutes:  
+[Foot Reflexology Massage ](https://tararom-thai.netlify.app/treatments/foot-reflexology-massage/)
