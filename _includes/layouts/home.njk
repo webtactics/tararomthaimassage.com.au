@@ -23,8 +23,11 @@
 <h3>Our Treatments and massages</h3>
 {% set postslist = collections.treatments %}
 {% include "components/postslist.njk" %}
-
+<h3>Featured massages</h3>
 {% set postslist = collections.featured %}
+{% include "components/postslist.njk" %}
+<h3>30 min massages</h3>
+{% set postslist = collections.[30-min] %}
 {% include "components/postslist.njk" %}
 
 
