@@ -14,31 +14,54 @@ module.exports = function (eleventyConfig) {
 
   // Add support for maintenance-free post authors
   eleventyConfig.addCollection("authors", (collection) => {
-    // Implementation for adding authors collection
+    const blogs = collection.getFilteredByGlob("posts/*.md");
+    return blogs.reduce((coll, post) => {
+      const author = post.data.author;
+      if (!author) {
+        return coll;
+      }
+      if (!coll.hasOwnProperty(author)) {
+        coll[author] = [];
+      }
+      coll[author].push(post.data);
+      return coll;
+    }, {});
   });
 
   // Date formatting filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    // Implementation for readableDate filter
+    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
 
   eleventyConfig.addFilter("machineDate", (dateObj) => {
-    // Implementation for machineDate filter
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
   // Minify CSS
   eleventyConfig.addFilter("cssmin", function (code) {
-    // Implementation for cssmin filter
+    return new CleanCSS({}).minify(code).styles;
   });
 
   // Minify JS
   eleventyConfig.addFilter("jsmin", function (code) {
-    // Implementation for jsmin filter
+    let minified = UglifyJS.minify(code);
+    if (minified.error) {
+      console.log("UglifyJS error: ", minified.error);
+      return code;
+    }
+    return minified.code;
   });
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    // Implementation for htmlmin transform
+    if (outputPath && outputPath.endsWith(".html")) {
+      return htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+    }
+    return content;
   });
 
   // Metagen plugin
@@ -61,8 +84,7 @@ module.exports = function (eleventyConfig) {
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
   let options = {
-    breaks: true,
-    linkify: true,
+    html: true,
   };
   let opts = {
     permalink: false,
