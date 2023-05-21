@@ -6,7 +6,7 @@ section: post
 
 
 
-<article>
+
 <div class="item blogdetail">
 <h1 class="heading-text">{{ title }}</h1>
 
@@ -42,11 +42,10 @@ section: post
   {% endif %}
 
 
-{% render '{{ gallery }}' %}
+{% include 'package4.njk' %}
 
  
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
 <a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
 </div>
-</article>
