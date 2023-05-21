@@ -21,7 +21,9 @@ imageCount: 5
 
 
 
-A combination between remedial massage and the warmth virgin organic coconut oil is both relaxing and therapeutic at the same time. Those with tired aching muscles, deep tension or stubborn knots will benefit from this treatment. Coconut oil is also great for the skin.
+A combination between remedial massage and the warmth virgin organic coconut oil is both relaxing and therapeutic at the same time. 
+
+Those with tired aching muscles, deep tension or stubborn knots will benefit from this treatment. Coconut oil is also great for the skin.
 
 ### What's So Good about Coconut Oil? ###
 
