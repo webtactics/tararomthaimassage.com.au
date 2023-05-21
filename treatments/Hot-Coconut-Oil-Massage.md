@@ -16,6 +16,7 @@ time45: $70.00
 time60: $90.00
 time90: $130.00
 time120: $170.00
+imageCount: 5
 ---
 
 
@@ -27,8 +28,10 @@ A combination between remedial massage and the warmth virgin organic coconut oil
 Coconut oil is unique. It's different from most other dietary oils. Many say it has special nutritional and medicinal properties.
 
 Medicinally, its proponents claim that it is beneficial for many medical conditions including:
-Reversing Alzheimer's disease,
-Balancing blood sugar,
-Protecting the skin against free-radical damage,
-Killing disease-causing bacteria and viruses,
-Boosting energy and endurance, enhancing physical and athletic performance.
+- Reversing Alzheimer's disease,  
+- Balancing blood sugar,  
+- Protecting the skin against free-radical damage,  
+- Killing disease-causing bacteria and viruses,  
+- Boosting energy and endurance, enhancing physical and athletic performance.
+
+
