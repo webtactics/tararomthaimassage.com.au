@@ -16,5 +16,3 @@ gallery: components/package4.njk
 [Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
 60 minutes:  
 [Remedial / Deep Tissue Massage](https://tararom-thai.netlify.app/treatments/remedial-deep-tissue-massage/)
-
-{% include 'components/package4.njk' %}
