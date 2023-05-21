@@ -41,8 +41,8 @@ section: post
     </div>
   {% endif %}
 
-
-{% raw %}{% render '{{ gallery }}' %}{% endraw %}
+ {% if gallery %}{% raw %}{% render '{{ gallery }}' %}{% endraw %}{% endif %}
+  {% if gallery %}{% raw %}{% include 'gallery' %}{% endraw %}{% endif %}
 
 
  
