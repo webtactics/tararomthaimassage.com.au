@@ -13,6 +13,6 @@ price: $135.00
 **2 HOURS of massage including:**
 
 60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
+[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
 60 minutes:  
 [Hot Coconut Oil Massage](https://tararom-thai.netlify.app/treatments/hot-coconut-oil-massage/)

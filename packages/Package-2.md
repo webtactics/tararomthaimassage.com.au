@@ -12,6 +12,6 @@ price: $105.00
 **90 minutes of massage including:**
 
 60 minutes:  
-[Aromatherapy Oil Massage](https://tararom-thai.netlify.app/treatments/aromatherapy-oil-massage/) plus
+[Aromatherapy Oil Massage](https://tararom-thai.netlify.app/treatments/aromatherapy-oil-massage/) plus  
 30 minutes:  
 [Foot Reflexology Massage ](https://tararom-thai.netlify.app/treatments/foot-reflexology-massage/)

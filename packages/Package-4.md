@@ -13,6 +13,6 @@ gallery: components/package4.njk
 **2 HOURS of massage including:**
 
 60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
+[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
 60 minutes:  
 [Remedial / Deep Tissue Massage](https://tararom-thai.netlify.app/treatments/remedial-deep-tissue-massage/)

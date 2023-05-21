@@ -12,6 +12,6 @@ price: $95.00
 **90 minutes of massage including:**
 
 60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus
+[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
 30 minutes:  
 [Aroma Oil Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/)
