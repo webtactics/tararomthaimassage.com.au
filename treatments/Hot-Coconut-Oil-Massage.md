@@ -16,7 +16,9 @@ time45: $70.00
 time60: $90.00
 time90: $130.00
 time120: $170.00
-imageCount: 5
+imageFolders:
+  - name: hot-coconut-oil-massage
+    count: 7
 ---
 
 
