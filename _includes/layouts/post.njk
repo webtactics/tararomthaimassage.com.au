@@ -42,18 +42,13 @@ section: post
   {% endif %}
 
 
-<div class="photo-gallery 2">
-  {% for image in galleryimages %}
-    <img src="{{ image.url }}" alt="{{ image.alt }}">
-  {% endfor %}
+<div class="photo-gallery 1">
+{% for image in galleryimages %}
+<div class="img">
+<a class="group" href="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}" alt="{{ title }}-{{ image.alt }}" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="treatments">
+<img src="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}?tr=w-300,h-300,q-70,pr-true" alt="{{ title }}-{{ image.alt }}" title="{{ title }}-{{ image.alt }}"></a>
 </div>
-
-<div class="photo-gallery">
-  {% for folder in post.imageFolders %}
-    {% for i in range(1, folder.count + 1) %}
-      <img src="/static/img/treatments/{{ folder.name }}/{{ folder.name }}-{{ i }}.jpg" alt="Image {{ i }}">
-    {% endfor %}
-  {% endfor %}
+{% endfor %}
 </div>
 <div class="photo-gallery gallery">
 {% include "components/gallery.njk" %}
