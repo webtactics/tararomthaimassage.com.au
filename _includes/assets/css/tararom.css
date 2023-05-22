@@ -1019,8 +1019,8 @@ button.button.success {cursor: pointer;}
 
  
 
-[[capture assign='gallery']][[root_url]]/modules/Gallery/images[[/capture]]
-[[capture assign='lightbox']][[root_url]]/modules/Gallery/templates/lightbox/images[[/capture]]
+[[capture assign='gallery']]https://www.tararomthaimassage.com.au/modules/Gallery/images[[/capture]]
+[[capture assign='lightbox']]https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images[[/capture]]
 
 
 .gallery img {
