@@ -1044,17 +1044,7 @@ button.button.success {cursor: pointer;}
 
  
 
-[[capture assign='gallery']]https://www.tararomthaimassage.com.au/modules/Gallery/images[[/capture]]
-[[capture assign='lightbox']]https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images[[/capture]]
 
-
-.gallery img {
-
-}
-
-.gallery img a {
-	display: inline-block;
-}
 
 .gallery img:hover {
 box-shadow: 0 0.15rem 0.5rem #333333;
@@ -1080,7 +1070,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	float: left;
 	margin: 0;
 	text-indent: -1000px;
-	background: url([[$gallery]]/previous.png) transparent no-repeat 0 0;
+	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/previous.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1091,7 +1081,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	float: left;
 	margin: 0 6px 0 0;
 	text-indent: -1000px;
-	background: url([[$gallery]]/next.png) transparent no-repeat 0 0;
+	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/next.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1101,7 +1091,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	height: 39px;
 	float: left;
 	text-indent: -1000px;
-	background: url([[$gallery]]/uppage.png) transparent no-repeat 0 0;
+	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/uppage.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1139,7 +1129,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 
 /* Preload images */
 body:after {
-  content: url([[$lightbox]]/close.png) url([[$lightbox]]/images/loading.gif) url([[$lightbox]]/images/prev.png) url([[$lightbox]]/images/next.png);
+  content: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/close.png) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/loading.gif) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/prev.png) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/next.png);
   display: none;
 }
 
@@ -1214,7 +1204,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url([[$lightbox]]/loading.gif) no-repeat;
+  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -1245,7 +1235,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url([[$lightbox]]/prev.png) left 48% no-repeat;
+  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -1263,7 +1253,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url([[$lightbox]]/next.png) right 48% no-repeat;
+  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -1327,7 +1317,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url([[$lightbox]]/close.png) top right no-repeat;
+  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
