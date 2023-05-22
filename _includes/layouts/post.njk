@@ -52,13 +52,8 @@ section: post
 </div>
 {% endfor %}
 </div>
-<div class="gallery">
-{% include "components/gallery.njk" %}
-</div>
 
 
-
- 
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
 <a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
@@ -68,4 +63,7 @@ section: post
 <div class="sidebarwrapper">
 <aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
 </div>
+</div>
+<div class="gallery">
+{% include "components/gallery.njk" %}
 </div>
