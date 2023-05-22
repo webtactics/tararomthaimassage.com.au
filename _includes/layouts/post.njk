@@ -6,7 +6,7 @@ section: post
 
  <div class="grid-2-columns-2x1">
  <div class="detailwrapper">
-  <article>
+<article>
 
 
 <div class="item blogdetail">
@@ -32,26 +32,10 @@ section: post
   <p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
 
 
-  {% if tags %}
-    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/treatments/{{ tag }}/{% endset %}
-       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
-      {%- endif -%}
-    {% endfor %}
-    </div>
-  {% endif %}
 
 
-<div class="photo-gallery grid-5-columns">
-{% for image in galleryimages %}
-<div class="img">
-<a class="group" href="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}" alt="{{ title }}-{{ image.alt }}" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="treatments">
-<img src="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}?tr=w-300,h-300,q-70,pr-true" alt="{{ title }}-{{ image.alt }}" title="{{ title }}-{{ image.alt }}"></a>
-</div>
-{% endfor %}
-</div>
+
+
 
 
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
@@ -64,6 +48,17 @@ section: post
 <aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
 </div>
 </div>
+
 <div class="gallery">
 {% include "components/gallery.njk" %}
 </div>
+  {% if tags %}
+    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/treatments/{{ tag }}/{% endset %}
+       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+  {% endif %}
