@@ -55,16 +55,7 @@ Medicinally, its proponents claim that it is beneficial for many medical conditi
 - Killing disease-causing bacteria and viruses,
 - Boosting energy and endurance, enhancing physical and athletic performance.
 
-<div class="recipesmethod">
-<h3>Method:</h3>
-<ol>
-<li>In a large bowl combine the lamb ingredients. Cover and stand for 15 minutes.</li>
-<li>In a separate bowl, add the sauce ingredients and whisk to combine. Set aside.</li>
-<li>In a wok, over high heat, add the cooking oil, onion, green onions and stir fry for 2 minutes until they begin to colour. Remove from heat and set aside.</li>
-<li>In the same wok, add the lamb along with its marinade and cook over high heat for 3 minutes, stirring frequently.</li>
-<li>Add the onions and then the noodles to the wok and pour the sauce over the noodles. Toss to combine. Cook for 1 minute or until the sauce begins to thicken. Remove from heat and serve.</li>
-</ol>
-</div>
+
 <div class="recipesingredients">
 <h3>Ingredients:</h3>
 <h4>Lamb:</h4>
@@ -96,4 +87,23 @@ Medicinally, its proponents claim that it is beneficial for many medical conditi
 <ul>
 <li>1 packet <a title="Chang's Hokkien Noodles" href="products/Changs-Shelf-Fresh-Noodles-Hokkien-Style/" target="_blank" rel="noopener">Chang's Hokkien Noodles</a><br /> (OR gluten-free alternative, use 3 packets of <a title="Chang's Wok-Ready Noodles" href="products/Wok-Ready-Noodles/" target="_blank" rel="noopener">Chang's Wok-Ready Noodles</a>)</li>
 </ul>
+</div>
+
+
+
+
+
+---
+
+# Method
+
+<div class="recipesmethod">
+<h3>Method:</h3>
+<ol>
+<li>In a large bowl combine the lamb ingredients. Cover and stand for 15 minutes.</li>
+<li>In a separate bowl, add the sauce ingredients and whisk to combine. Set aside.</li>
+<li>In a wok, over high heat, add the cooking oil, onion, green onions and stir fry for 2 minutes until they begin to colour. Remove from heat and set aside.</li>
+<li>In the same wok, add the lamb along with its marinade and cook over high heat for 3 minutes, stirring frequently.</li>
+<li>Add the onions and then the noodles to the wok and pour the sauce over the noodles. Toss to combine. Cook for 1 minute or until the sauce begins to thicken. Remove from heat and serve.</li>
+</ol>
 </div>
