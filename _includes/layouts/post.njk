@@ -45,6 +45,17 @@ section: post
   {% if gallery %}{% raw %}{% include 'gallery' %}{% endraw %}{% endif %}
 
 
+<div class="photo-gallery">
+  {% for folder in post.imageFolders %}
+    {% for i in range(1, folder.count + 1) %}
+      <img src="https://www.tararomthaimassage.com.au/uploads/images/Gallery/{{ folder.name }}/image{{ i }}.jpg" alt="Image {{ i }}">
+    {% endfor %}
+  {% endfor %}
+</div>
+
+
+
+
  
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
