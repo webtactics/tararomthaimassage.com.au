@@ -1,5 +1,8 @@
 <div class="photo-gallery 2">
   {% for image in galleryimages %}
-    <img src="{{ image.url }}" alt="{{ image.alt }}">
+<div class="img">g
+<a class="group" href="{{ image.url }}" alt="{{ image.alt }}?tr=w-300,h-220,q-70,pr-true" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="{{ title }}"><img src="{{ image.url }}" alt="{{ image.alt }}" title="{{ image.alt }}"></a>
+</div>
   {% endfor %}
 </div>
+
