@@ -1,8 +1,8 @@
 <div class="photo-gallery 2">
 {% for image in galleryimages %}
 <div class="img">
-<a class="group" href="{{ image.url }}" alt="{{ title }}-{{ image.alt }}" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="treatments">
-<img src="{{ image.url }}?tr=w-300,h-300,q-70,pr-true" alt="{{ title }}-{{ image.alt }}" title="{{ title }}-{{ image.alt }}"></a>
+<a class="group" href="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}" alt="{{ title }}-{{ image.alt }}" title="{{ image.alt }}" data-title="{{ image.alt }}" data-lightbox="treatments">
+<img src="https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/{{ image.url }}?tr=w-300,h-300,q-70,pr-true" alt="{{ title }}-{{ image.alt }}" title="{{ title }}-{{ image.alt }}"></a>
 </div>
 {% endfor %}
 </div>
