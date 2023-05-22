@@ -24,15 +24,15 @@ galleryimages:
     alt: Image 1
   - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-2.jpg
     alt: Image 2
-  - url: hhttps://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-3.jpg
+  - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-3.jpg
     alt: Image 3
-  - url: hhttps://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-4.jpg
+  - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-4.jpg
     alt: Image 4
-  - url: hhttps://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-5.jpg
+  - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-5.jpg
     alt: Image 5
-  - url: hhttps://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-6.jpg
+  - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-6.jpg
     alt: Image 6
-  - url: hhttps://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-7.jpg
+  - url: https://ik.imagekit.io/webtactics/tararom-thai/uploads/images/Gallery/hot-coconut-oil-massage/hot-coconut-oil-massage-7.jpg
     alt: Image 7
 
 
