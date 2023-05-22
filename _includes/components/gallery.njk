@@ -1,0 +1,5 @@
+{% for folder in post.imageFolders %}
+  {% for i in range(1, folder.count + 1) %}
+    <img src="/static/img/treatments/{{ folder.name }}/image{{ i }}.jpg" alt="Image {{ i }}">
+  {% endfor %}
+{% endfor %}
