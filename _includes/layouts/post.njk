@@ -1,10 +1,12 @@
 ---
-layout: layouts/detail.njk
+layout: layouts/default.njk
 section: post
 ---
 
 
-
+ <div class="grid-2-columns-2x1">
+ <div class="detailwrapper">
+  <article>
 
 
 <div class="item blogdetail">
@@ -60,4 +62,10 @@ section: post
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
 <a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
+</div>
+</article>
+</div>
+<div class="sidebarwrapper">
+<aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
+</div>
 </div>
