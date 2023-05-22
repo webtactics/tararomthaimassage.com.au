@@ -41,8 +41,16 @@ section: post
     </div>
   {% endif %}
 
-
-
+<div class="photo-gallery 1">
+  {% for image in post.galleryimages %}
+    <img src="{{ image.url }}" alt="{{ image.alt }}">
+  {% endfor %}
+</div>
+<div class="photo-gallery 2">
+  {% for image in post.galleryimages %}
+    <img src="{{ image.url }}" alt="{{ image.alt }}">
+  {% endfor %}
+</div>
 
 <div class="photo-gallery">
   {% for folder in post.imageFolders %}
