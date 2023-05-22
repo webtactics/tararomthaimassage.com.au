@@ -55,4 +55,17 @@ Medicinally, its proponents claim that it is beneficial for many medical conditi
 - Killing disease-causing bacteria and viruses,
 - Boosting energy and endurance, enhancing physical and athletic performance.
 
+<div class="recipesmethod">
+### What's So Bad about Coconut Oil? ###
+
+Coconut oil is unique. It's different from most other dietary oils. Many say it has special nutritional and medicinal properties.
+
+Medicinally, its proponents claim that it is beneficial for many medical conditions including:
+- Reversing Alzheimer's disease,
+- Balancing blood sugar,
+- Protecting the skin against free-radical damage,
+- Killing disease-causing bacteria and viruses,
+- Boosting energy and endurance, enhancing physical and athletic performance.
+</div>
+
 
