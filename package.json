@@ -32,7 +32,7 @@
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
-    "a11y-dialog": "^7.5.2",
+    "a11y-dialog": "^8.0.1",
     "eleventy-plugin-metagen": "^1.7.11"
   }
 }
