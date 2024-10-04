@@ -683,6 +683,16 @@ color: var(--white);
 font-size: 90%;
 text-align: center;
 }
+
+.footerwrap h3, .footerwrap h4 {
+  color: var(--white);
+  font-size: 90%;
+  text-align: center;
+}
+
+
+
+
 .footerwrap p {
   color: var(--white);
   font-size: 90%;
