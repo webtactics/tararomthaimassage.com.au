@@ -1,6 +1,6 @@
 {
   "name": "tararomthaimassage.com.au",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tararom Authentic Thai & Remedial Massage",
   "scripts": {
     "build": "npx @11ty/eleventy",
