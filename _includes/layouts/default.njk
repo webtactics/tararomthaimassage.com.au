@@ -11,10 +11,17 @@
 
 {% block hero %}{% include "components/hero.njk" %}{% endblock %}
 
-<div class="container">{% block tagline %}{% endblock %}
+<div class="container">
+    
+{% block tagline %}
+    <div class="mainblock">
+        <h1>{{ title }}</h1>
+    </div>
+{% endblock %}
 
 {% block content %}
 <section role="main" class="content">  
+    <h1>{{ title }}</h1>
   {{ content | safe }}
 </section>
 {% endblock %}
