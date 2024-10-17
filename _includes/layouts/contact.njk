@@ -1,8 +1,12 @@
----
-layout: layouts/default.njk
-section: contact
-class: contact
----
+{% extends "layouts/default.njk" %}
+
+
+{% block bodyclass %}<body class=" {{ class }} internal" >{% endblock %}
+
+{% block hero %}
+{% include "components/hero.njk" %}
+{% endblock %}
+
 <h1>{{ title }}</h1>
 
 {{ layoutContent | safe }}
