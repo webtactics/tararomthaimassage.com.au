@@ -1,6 +1,7 @@
 ---
 layout: layouts/contact.njk
 title: Get in touch with Tararom Authentic Thai Massage
+tagline: Get in touch with Tararom Authentic Thai Massage
 description: To book a massage please call 0449 212 782, use our booking page or email info@tararomthaimassage.com.au. Tararom Authentic Thai Massage is located at 234 Queen St. St.Marys NSW 2760
 section: contact
 date: 2024-10-05
