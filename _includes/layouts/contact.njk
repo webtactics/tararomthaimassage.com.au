@@ -1,18 +1,21 @@
-{% extends "/layouts/default.njk" %}
+{% extends "layouts/default.njk" %}
 
 
-{% block bodyclass %}<body class=" {{ class }} internal" >{% endblock %}
 
-{% block hero %}
-{% include "components/hero.njk" %}
-{% endblock %}
 
-<h1>{{ title }}</h1>
 
+
+
+
+{% block content %}
+<section role="main" class="content">  
   {{ content | safe }}
-
-<div>
+  <div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.6597673172796!2d150.77114077649108!3d-33.76945681392168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129aadd789b8cf%3A0x686ba87377f41b7d!2sTararom%20Authentic%20Thai%20Massage!5e0!3m2!1sen!2sau!4v1728111167965!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 {% include "components/form.njk" %}
+</section>
+{% endblock %}
+
+
