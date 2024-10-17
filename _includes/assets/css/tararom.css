@@ -628,18 +628,26 @@ text-shadow: 2px 2px 4px var(--black);
   width: 100%;
   text-align: center;
 }
-.content {
-position: relative;
-margin: 0 auto;
-padding: 1rem;
-z-index: 2;
-max-width: 1280px;
-background-color: var(--white);
-}
 
-.container { margin: -60vh auto 0 auto;z-index: 2;position: relative;}
+
+
+.container { margin: -60vh auto 0 auto;}
 .home .container { margin: -30vh auto 0 auto;}
 .massage-detail  .container { margin: -60vh auto 0 auto;}
+
+.mainblock {margin: 0 auto;
+  width: calc(100vw - 6rem);
+  max-width: 1440px;position: relative;z-index: 2;}
+
+.content {
+  position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: calc(100vw - 6rem);
+    max-width: 1440px;
+    background-color: var(--white);
+    min-height: 200px;
+  }
 
 .internal .content {
   margin: 0 auto ;
