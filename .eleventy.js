@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
+const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const metagen = require('eleventy-plugin-metagen');
 
@@ -56,6 +57,20 @@ module.exports = function (eleventyConfig) {
   module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
   };
+
+
+    // Minify HTML output
+    eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+      if (outputPath.indexOf(".html") > -1) {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true
+        });
+        return minified;
+      }
+      return content;
+    });
 
   // Metagen plugin
   eleventyConfig.addPlugin(metagen);
