@@ -1,8 +1,8 @@
-const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-js");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const metagen = require('eleventy-plugin-metagen');
+const { DateTime } = await import ("luxon");
+const CleanCSS = await import ("clean-css");
+const UglifyJS = await import ("uglify-js");
+const eleventyNavigationPlugin = await import ("@11ty/eleventy-navigation");
+const metagen = await import ('eleventy-plugin-metagen');
 
 module.exports = function (eleventyConfig) {
   // Eleventy Navigation Plugin
