@@ -52,11 +52,6 @@ module.exports = function (eleventyConfig) {
     return minified.code;
   });
 
-   // Minify HTML
-  const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
-  module.exports = (eleventyConfig) => {
-    eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
-  };
 
 
     // Minify HTML output
