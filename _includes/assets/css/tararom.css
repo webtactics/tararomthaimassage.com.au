@@ -642,7 +642,7 @@ text-shadow: 2px 2px 4px var(--black);
 .content {
   position: relative;
     margin: 0 auto;
-    padding: 0;
+    padding: 2rem;
     width: calc(100vw - 6rem);
     max-width: 1440px;
     background-color: var(--white);
