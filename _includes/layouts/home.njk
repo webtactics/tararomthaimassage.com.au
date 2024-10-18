@@ -8,17 +8,28 @@
 {% endblock %}
 
 
+{% block tagline %}
+<div class="mainblockwrapper">
+    <div class="mainblock">
+        <h2>Relax in the ultimate peaceful environment.</h2>
+        <p>We offer you a variety of treatments to unwind the stress of your mind, your body and soul. All services are provided by well trained and experienced therapists.</p>
+        <h3>Feel relaxed at Tararom Authentic Thai Massage</h3>
+    </div>
+</div>
+{% endblock %}
 
+{% block content %}
+<section role="main" class="content">  
+    <h1>{{ title }}</h1>
+  {{ content | safe }}
+</section>
+{% endblock %}
 
 
 {% block content %}
 <section role="main" class="content"> 
 
-<div class="taglineblock">
-<h2>Relax in the ultimate peaceful environment.</h2>
-<p>We offer you a variety of treatments to unwind the stress of your mind, your body and soul. All services are provided by well trained and experienced therapists.</p>
-<h3>Feel relaxed at Tararom Authentic Thai Massage</h3>
-</div>
+
 
 
 {{ layoutContent | safe }}
