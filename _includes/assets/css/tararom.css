@@ -593,21 +593,15 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 .homebooklogo {
   position: absolute;
   z-index: 2;
-  top: 22vh;
+  top: 36vh;
   height: 130px;
   width: 100%;
   text-align: center;
 
 }
 
-.homebooklogo img { 
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: center;}
-
-
 .homebooklogo h1 {font-size: 4rem;padding: 0.5rem 0;}
-.homebooklogo h2 {font-size: 2.8rem;padding: 0 0 0.75rem 0;}
+
 
 .homebooklogo h1,  .homebooklogo h2 {
 line-height: 1;
