@@ -1,5 +1,6 @@
 :root {
 	--primary: hsla(203, 70%, 46%, 1);
+  --primarybold: hsl(200, 89%, 41%);
   --primary50: hsla(203, 70%, 46%, 0.5);
   --primary30: hsla(203, 70%, 46%, 0.3);
   --primary60: hsla(203, 70%, 46%, 0.6);
@@ -397,7 +398,7 @@ transition: all 0.6s;
 }
 
 .topbar.scrolled {
-  background-color: var(--primary);
+  background-color: var(--primarybold);
   -webkit-transition: all 0.6s;
 -moz-transition: all 0.6s;
 -ms-transition: all 0.6s;
