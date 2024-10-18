@@ -21,7 +21,7 @@
 
 
 <div class="NewsSummaryPrice">  
- 		<h4>Pricing</h4>
+
 	<div class="grid-timecost"> 
 {% if post.data.time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ post.data.time30 }}</div>{% endif %}
 {% if post.data.time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ post.data.time45 }}</div>{% endif %}
@@ -33,14 +33,9 @@
 
 
 
-<div class="NewsSummarySummaryHome">
-{% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
-{{ layoutContent | safe }}
-</div>
 
-<div class="right newssumbutton">
-<a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
-</div>
+
+
 
 
 
