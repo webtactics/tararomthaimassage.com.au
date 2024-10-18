@@ -834,7 +834,7 @@ gap: 3rem;}
   grid-template-columns: 1fr 4fr;}
 
 .postlist-promotions .grid-timecost {
-  grid-template-columns: repeat(1fr);
+  grid-template-columns: 1fr;
   row-gap: 0;
   column-gap: 1rem;}
 
@@ -861,7 +861,7 @@ gap: 3rem;}
 .SummaryPrice h4 {margin:0;padding:0;line-height:1;}
 .SummaryPrice.sidebar {min-height:54px;}
 .detailpagesummary .SummaryPrice {font-size:0.75rem;color:var(--text);padding:0;}
-span.timecostmin {min-width: 60px;display:inline-block;}
+span.timecostmin {min-width: 60px;display:inline-block;color: var(--red);}
 
 
 
