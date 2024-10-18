@@ -648,7 +648,7 @@ padding:1rem 0;}
 .home .mainblock h2 {
   color: var(--white);
   text-align: left;
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding: 1rem 0;
   line-height: 1;
   text-wrap: balance;
@@ -658,7 +658,7 @@ padding:1rem 0;}
 .home .mainblock h3 {
   color: var(--white);
   text-align: left;
-  margin: 1rem 0 0 0;
+  margin: 0;
   padding: 1rem 0;
   line-height: 1;
   text-wrap: balance;
