@@ -632,9 +632,8 @@ text-shadow: 2px 2px 4px var(--black);
 
 
 
-.container { margin: -60vh auto 0 auto;}
-.home .container { margin: -30vh auto 0 auto;}
-.massage-detail  .container { margin: -60vh auto 0 auto;}
+.container { margin: 0 auto;  background-color: var(--white);}
+
 
 .mainblock {margin: 0 auto;
   width: calc(100vw - 6rem);
