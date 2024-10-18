@@ -4,49 +4,47 @@ section: post
 ---
 
 
- <div class="grid-2-columns-2x1">
- <div class="detailwrapper">
-<article>
+<div class="grid-2-columns-2x1">
+    <div class="detailwrapper">
+        <article>
 
 
 <div class="item blogdetail">
-<h1 class="heading-text">{{ title }}</h1>
-
+    <h1 class="heading-text">{{ title }}</h1>
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
-<div class="detailcontent">     
-<h1>{{ content | safe }}</h1></div>
+
+<div class="detailcontent"><p>{{ content | safe }}</p></div>
 
 
- <div class="NewsSummaryPrice detail"> 
- <h4>Pricing</h4>
-<div class="grid-timecost"> 
+<div class="NewsSummaryPrice detail"> 
+    <h4>Pricing</h4>
+        <div class="grid-timecost"> 
 {% if time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ time30 }}</div>{% endif %}
 {% if time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ time45 }}</div>{% endif %}
 {% if time60 %}<div class="timecostwrapper"><span class="timecostmin">60 min:</span>{{ time60 }}</div>{% endif %}
 {% if time90 %}<div class="timecostwrapper"><span class="timecostmin">90 min:</span>{{ time90 }}</div>{% endif %}
 {% if time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ time120 }}</div>{% endif %}
-</div>	</div>	
+        </div>
+</div>	
 
-  <h3>Health Fund Rebates Available:</h3>
-  <p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
-
-
-
-
-
-
+<h3>Health Fund Rebates Available:</h3>
+<p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
 
 
 <a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
   
-<a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
+<a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>   
+
 </div>
-</article>
-</div>
+
+        </article>
+    </div>
+
 <div class="sidebarwrapper">
 <aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
 </div>
+
 </div>
 
 <div class="gallery">
