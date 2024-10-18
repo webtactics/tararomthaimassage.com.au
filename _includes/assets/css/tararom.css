@@ -643,9 +643,10 @@ text-shadow: 2px 2px 4px var(--black);
     color: var(--primary);
     text-align: right;
     margin: 0 0 1rem 0;
-    padding: 0;
+    padding: 1rem;
     line-height: 2;
     text-wrap: balance;
+    background-color: var(--white);
   }
 
 .content {
