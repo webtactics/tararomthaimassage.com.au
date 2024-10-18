@@ -657,7 +657,7 @@ text-shadow: 2px 2px 4px var(--black);
   padding: 1rem;
   line-height: 1;
   text-wrap: balance;
-  font-size: calc(1rem + 1vw);
+  font-size: 3rem;
 }
 
 .home .mainblock h3 {
@@ -667,7 +667,7 @@ text-shadow: 2px 2px 4px var(--black);
   padding: 1rem;
   line-height: 1;
   text-wrap: balance;
-  font-size: calc(0.8rem + 1vw);
+  font-size: 2rem;
 }
 
 .home .mainblock h4 {
@@ -677,7 +677,7 @@ text-shadow: 2px 2px 4px var(--black);
   padding: 0.5rem;
   line-height: 1;
   text-wrap: balance;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .content {
