@@ -712,6 +712,7 @@ padding:1rem 0;}
 .blue h2, .blue h3, .blue p {color:var(--white); padding:1rem 0;margin:1rem 0;}
 .footer {
   background-color: var(--primary);
+  margin-top:4rem;
   padding: 1rem 0;
   z-index: 4;
 }
