@@ -20,20 +20,10 @@
 
 {% block content %}
 <section role="main" class="content">  
-    <h1>{{ title }}</h1>
-  {{ content | safe }}
-</section>
-{% endblock %}
-
-
-{% block content2 %}
-<section role="main" class="content"> 
-
-
-  {{ content | safe }}
-
-{{ layoutContent | safe }}
-<h3>Promotions & Special Packages!</h3>
+     <div class="contentbox">
+        {{ content | safe }}
+    </div>
+  <h3>Promotions & Special Packages!</h3>
 {% set postslist = collections.promotions %}
 {% include "components/postslist-promotions.njk" %}
 <h3>Special Massage Packages</h3>
@@ -48,10 +38,11 @@
 <h3>30 min massages</h3>
 {% set postslist = collections.30min %}
 {% include "components/postslist.njk" %}
-
-
 </section>
 {% endblock %}
+
+
+
 
 
  
