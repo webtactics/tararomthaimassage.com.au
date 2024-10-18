@@ -587,8 +587,9 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 
 
 
-.hero {height: 40svh;height: 40vh;}
+.hero {height: 50svh;height: 50vh;}
 .home .hero {height: 80svh;height: 80vh;}
+
 .homebooklogo {
   position: absolute;
   z-index: 2;
