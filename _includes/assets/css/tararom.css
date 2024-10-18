@@ -640,7 +640,7 @@ text-shadow: 2px 2px 4px var(--black);
   width: calc(100vw - 6rem);
   max-width: 1440px;position: relative;z-index: 2;}
 
-  .mainblock h1 {
+  .mainblock h1, .mainblock h2, .mainblock h3, .mainblock h4, .mainblock h5, .mainblock h6 {
     color: var(--white);
     text-align: right;
     margin: 0 0 1rem 0;
@@ -650,11 +650,13 @@ text-shadow: 2px 2px 4px var(--black);
     font-size: calc(2rem + 1vw);
   }
 
+
+
 .content {
   position: relative;
     margin: 0 auto;
     padding: 0;
-    width: calc(100vw - 6rem);
+    width: calc(100vw - 1rem);
     max-width: 1440px;
     background-color: var(--white);
     min-height: 200px;
