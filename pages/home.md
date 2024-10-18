@@ -11,5 +11,4 @@ parent: null
 hasChildren: false
 ---
 
-### Feel super relaxed at Tararom Authentic Thai & Remedial Massage
 

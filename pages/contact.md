@@ -10,7 +10,7 @@ eleventyNavigation:
   key: Contact
   order: 3
 parent: null
-hasChildren: true
+hasChildren: false
 ---
 
 
