@@ -640,6 +640,15 @@ text-shadow: 2px 2px 4px var(--black);
   width: calc(100vw - 6rem);
   max-width: 1440px;position: relative;z-index: 2;}
 
+  .mainblock h1, .mainblock h2, .mainblock h3, .mainblock h4, .mainblock h5, .mainblock h6 {
+    color: var(--primary);
+    text-align: right;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    line-height: 2;
+    text-wrap: balance;
+  }
+
 .content {
   position: relative;
     margin: 0 auto;
