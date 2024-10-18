@@ -650,11 +650,7 @@ text-shadow: 2px 2px 4px var(--black);
     min-height: 200px;
   }
 
-.internal .content {
-  margin: 0 auto ;
-  background-color: var(--white);
-  max-width: 1280px;
-  }
+
 .massage-detail .content {
   margin: -60vh auto 0 auto;
     background-color: var(--white);
@@ -667,12 +663,7 @@ text-shadow: 2px 2px 4px var(--black);
         }
 
 @media (max-width: 1024px) {
-.content {padding: 1rem 0.5rem;}
 
-.massage-detail .content, .internal .content {
-  margin: -70vh auto 0 auto;
-    background-color: var(--white);
-    }
 }
 
 .blue {
