@@ -860,7 +860,7 @@ margin-bottom:2rem;}
 
 
 .promosumhome {
-  margin: 0;
+  margin: 0 0 2rem 0;
    padding: 0.75rem;
    background-color: var(--white);
    border: 1px solid var(--primary50);
