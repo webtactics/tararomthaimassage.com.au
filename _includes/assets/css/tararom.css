@@ -629,7 +629,8 @@ text-shadow: 2px 2px 4px var(--black);
 
 
 .container { margin: 0 auto;  background-color: var(--white);}
-.mainblockwrapper {background-color: var(--primary);margin-bottom:2rem;}
+
+.mainblockwrapper {background-color: var(--primary);margin-bottom:4rem;}
 
 .mainblock {margin: 0 auto;
   width: calc(100vw - 1rem);
