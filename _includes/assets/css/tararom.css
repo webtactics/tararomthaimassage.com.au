@@ -860,7 +860,7 @@ gap: 3rem;}
 .SummaryPrice {font-size:0.8rem;color:var(--primary);padding:0.25rem 0 0 0;display:block;min-height:100px;}
 .SummaryPrice h4 {margin:0;padding:0;line-height:1;}
 .SummaryPrice.sidebar {min-height:54px;}
-.detailpagesummary .SummaryPrice {font-size:0.75rem;color:var(--primary);padding:0;}
+.detailpagesummary .SummaryPrice {font-size:0.75rem;color:var(--text);padding:0;}
 span.timecostmin {min-width: 60px;display:inline-block;}
 
 
