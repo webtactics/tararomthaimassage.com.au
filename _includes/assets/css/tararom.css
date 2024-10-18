@@ -857,6 +857,28 @@ margin-bottom:2rem;}
 .CGBlogSummaryField .image-overlay .overlay-icon{width:70px;height:70px;display:block;border-radius:50%;margin:-70px auto 0;opacity:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
 .CGBlogSummaryField:hover .image-overlay .overlay-icon{opacity:1;margin:70px auto 0}.CGBlogSummaryField .image-overlay .overlay-icon img{width:70px;height:70px}
 
+
+
+.promosumhome {
+  margin: 0;
+   padding: 0.75rem;
+   background-color: var(--white);
+   border: 1px solid var(--primary50);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.promosumhome:hover {
+   box-shadow: 0 2px 8px var(--grey);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+   border: 1px solid var(--primary);
+
+}
+
 .promotitle {padding:0;}
 .promodesc {padding:0;}
 .promodesc h2 {padding:0.5rem;color: var(--white);background-color: var(--red);}
