@@ -830,8 +830,8 @@ grid-template-columns: 2fr 1fr;}
 .grid-detailpage-sidebar-summary {
   grid-template-columns: 1fr 4fr;}
 
-.grid-timecost {
-  grid-template-columns: repeat(2, 1fr);
+.postlist-promotions .grid-timecost {
+  grid-template-columns: repeat(1fr);
   row-gap: 0;
   column-gap: 1rem;}
 
