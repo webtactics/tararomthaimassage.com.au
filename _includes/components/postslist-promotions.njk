@@ -35,6 +35,7 @@
 
 <div class="NewsSummarySummaryHome">
 {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+ {{ content | safe }}
 </div>
 
 <div class="right newssumbutton">
