@@ -639,7 +639,7 @@ padding:1rem 0;}
   .mainblock h1 {
     color: var(--white);
     text-align: right;
-    margin: 0 0 1rem 0;
+    margin: 0;
     padding: 1rem;
     line-height: 2;
     text-wrap: balance;
