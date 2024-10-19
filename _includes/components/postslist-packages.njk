@@ -17,10 +17,16 @@
 	<p class="postsumhome">{{ post.data.description }}</p>
 </div>
 
+{% if contenthtml1 %}
 <div class="packdesc">
-	{{ post.data.contenthtml }}
+	{{ post.data.contenthtml1 }}
 </div>
+{% endif %}
 
+<h3>WokReadyNoodles 2</h3>
+{% set postslist = collections['Package1'] %}
+	{% include "components/packages/packages-1.html" %}
+{% endif %}
 
 <div class="packdesc">
 	<h3>Test 1</h3>
