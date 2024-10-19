@@ -23,8 +23,10 @@
 </div>
 
 
-
-
+{% if pack1 %}
+<h3>Package1</h3>
+{% include "components/packages/packages-1.html" %}
+{% endif %}
 
 {% if Package1 %}
 <h3>Package1</h3>
