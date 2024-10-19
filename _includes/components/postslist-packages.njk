@@ -18,8 +18,36 @@
 </div>
 
 <div class="packdesc">
+	<h3>Test 1</h3>
 	{% include "components/packages/packages-1.html" %}
 </div>
+
+<div class="packdesc">
+	<h3>Test 2</h3>
+	{% include "components/packages/['post.data.contenthtml']" %}
+</div>
+
+
+
+{% if Package1 %}
+<h3>Package1</h3>
+{% include "components/packages/packages-1.html" %}
+{% endif %}
+{% if Package2 %}
+<h3>Package1</h3>
+{% include "components/packages/packages-2.html" %}
+{% endif %}
+
+{% if page.url == "/packages/package-1/" %}
+<h3>Package-1 url</h3>
+{% include "components/packages/packages-1.html" %}
+{% endif %}
+
+
+
+{%- if (Package1) -%}
+<img src="{{ image }}" alt="{{ imageAlt }}"  width="1000" height="500">
+{%- else -%}{%- endif -%}
 
 
 
