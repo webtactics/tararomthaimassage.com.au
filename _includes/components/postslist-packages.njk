@@ -21,7 +21,10 @@
 	<h3>Test 1</h3>
 	{% include "components/packages/packages-1.html" %}
 </div>
-
+<div class="packdesc">
+	<h3>Test 2</h3>
+	{% include "components/packages/{{ post.data.contenthtml }}" %}
+</div>
 
 
 
@@ -58,9 +61,7 @@
 <a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
 </div>
 
-<div class="right newssumbutton">
-<a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.data.contenthtml }}">Read more &gt;</a>
-</div>
+
 
 
 
