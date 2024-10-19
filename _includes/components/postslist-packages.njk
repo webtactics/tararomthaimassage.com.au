@@ -1,6 +1,6 @@
 <section class="grid-2-columns postlist-packages" >
 	{% for post in postslist | reverse %}
-<div class="treatsumhome">
+<div class="packsumhome">
 		<article{% if post.url == url %} data-current="current item"{% endif %} >
 			
 <div class="packtitle">
@@ -15,6 +15,10 @@
 
 <div class="packdesc">
 	<p class="postsumhome">{{ post.data.description }}</p>
+</div>
+
+<div class="packdesc">
+	{% include "components/packages/packages-1.html" %}
 </div>
 
 
