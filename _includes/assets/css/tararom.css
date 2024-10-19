@@ -863,7 +863,9 @@ margin-bottom:1rem;}
 .CGBlogSummaryField .image-overlay .overlay-icon{width:70px;height:70px;display:block;border-radius:50%;margin:-70px auto 0;opacity:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
 .CGBlogSummaryField:hover .image-overlay .overlay-icon{opacity:1;margin:70px auto 0}.CGBlogSummaryField .image-overlay .overlay-icon img{width:70px;height:70px}
 
-
+.postlist-promotions, .postlist-treatments {
+  position:relative;
+}
 
 .promosumhome, .treatsumhome {
   margin: 0 0 2rem 0;
