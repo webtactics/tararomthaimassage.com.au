@@ -19,6 +19,7 @@ price: $95.00
 contenthtml1: components/packages/package-1.html
 contenthtml2: 
 pack1: true
+Package1: true
 
 ---
 
