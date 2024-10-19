@@ -1,21 +1,19 @@
 <section class="grid-3-columns postlist-promotions" >
 	{% for post in postslist | reverse %}
-<div class="promosumhome">
+<div class="treatsumhome">
 		<article{% if post.url == url %} data-current="current item"{% endif %} >
 			
-<div class="promotitle">
-	<h2>{{ post.data.title }}</h2>
+<div class="treattitle">
+<h2><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >{{ post.data.title }}</a></h2>
 </div>
 
 <div class="CGBlogSummaryField">
-	<img src="{{ post.data.image }}/tr:w-450,h-270" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
-		<span class="image-overlay">
-			<span class="overlay-icon"><img src="/static/img/assets/tararom-square-logo.jpg" /></span>
-		</span>
-	
+<a href="{{ post.url | url }}"  title="{{ post.data.title }}" alt="{{ post.data.title }}"><img src="{{ post.data.image }}/tr:w-450,h-270" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
+<span class="image-overlay">
+<span class="overlay-icon"><img src="/static/img/assets/tararom-square-logo.jpg" /></span></span></a>
 </div>
 
-<div class="promodesc">
+<div class="treatdesc">
 	<h2>{{ post.data.description }}</h2>
 </div>
 
