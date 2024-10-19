@@ -901,7 +901,9 @@ span.timecostmin {min-width: 60px;display:inline-block;color: var(--primary50);}
 
 
 .NewsSummarySummaryHome {color:var(--text);padding:0;font-size:0.9rem;min-height: 73px;}
-.newssumbutton {margin:0 0 0.5rem 0;}
+.newssumbutton {  position: absolute;
+  bottom: 0.5rem;
+  margin:0 ;}
 
 .NewsSummaryHome {
   margin: 0;
