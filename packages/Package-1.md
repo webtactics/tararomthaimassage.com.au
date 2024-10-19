@@ -5,6 +5,7 @@ date: 2024-10-20
 tags: 
   - post
   - packages
+  - pack1
 
 permalink: "/packages/Package-1/"
 

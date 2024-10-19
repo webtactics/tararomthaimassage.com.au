@@ -5,6 +5,9 @@ date: 2024-10-20
 tags: 
   - post
   - packages
+  - pack2
+
+
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Wat-Pho-Traditional-Thai-Foot-Reflexology_YkQqntLOw.jpg
 imageAlt: Package 2
 description: 90 minutes of massage including 60 minutes of Aroma Relaxing Massage  plus 30 minutes of Foot Reflexology Massage.
