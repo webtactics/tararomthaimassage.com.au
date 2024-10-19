@@ -859,7 +859,7 @@ margin-bottom:1rem;}
 
 
 
-.promosumhome {
+.promosumhome, .treatsumhome {
   margin: 0 0 2rem 0;
    padding: 0.75rem;
    background-color: var(--white);
@@ -869,7 +869,7 @@ margin-bottom:1rem;}
    -o-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 }
-.promosumhome:hover {
+.promosumhome:hover, .treatsumhome:hover {
    box-shadow: 0 2px 8px var(--grey);
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
