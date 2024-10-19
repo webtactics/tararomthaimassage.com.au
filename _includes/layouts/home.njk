@@ -21,24 +21,16 @@
 
 {% block content %}
 <section role="main" class="content">  
-     <div class="contentbox">
-        {{ content | safe }}
-    </div>
+     <div class="contentbox">{{ content | safe }}</div>
   <h2>Weekly Promotions</h2>
 {% set postslist = collections.promotions %}
 {% include "components/postslist-promotions.njk" %}
-<h3>Special Massage Packages</h3>
-{% set postslist = collections.packages %}
-{% include "components/postslist-packages.njk" %}
 <h3>Our Treatments and massages</h3>
 {% set postslist = collections.treatments %}
 {% include "components/postslist-treatments.njk" %}
-<h3>Featured massages</h3>
-{% set postslist = collections.featured %}
-{% include "components/postslist.njk" %}
-<h3>30 min massages</h3>
-{% set postslist = collections.30min %}
-{% include "components/postslist.njk" %}
+<h3>Special Massage Packages</h3>
+{% set postslist = collections.packages %}
+{% include "components/postslist-packages.njk" %}
 </section>
 {% endblock %}
 
