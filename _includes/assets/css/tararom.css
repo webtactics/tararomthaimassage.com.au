@@ -898,6 +898,7 @@ margin-bottom:1rem;}
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-height: 66px;
 }
 
 .SummaryPrice {font-size:0.8rem;color:var(--primary);padding:0.25rem 0 0 0;display:block;min-height:100px;}
