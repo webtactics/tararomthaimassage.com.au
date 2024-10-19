@@ -2,7 +2,8 @@
 title: Package 1
 author: Paul Goldsmith
 date: 2023-05-19
-tags: ["post", "featured"]
+tags: 
+  - post
   - Package-1
 
 
