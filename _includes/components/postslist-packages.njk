@@ -35,7 +35,7 @@
 {% include "components/packages/packages-2.html" %}
 {% endif %}
 
-{% if page.url == "/packages/package-1/" %}
+{% if page.url == "./packages/package-1/" %}
 <h3>Package-1 url</h3>
 {% include "components/packages/packages-1.html" %}
 {% endif %}
@@ -58,7 +58,9 @@
 <a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
 </div>
 
-
+<div class="right newssumbutton">
+<a class="button right"  title="{{ post.data.title }}" alt="{{ post.data.title }}" href="{{ post.data.contenthtml }}">Read more &gt;</a>
+</div>
 
 
 
