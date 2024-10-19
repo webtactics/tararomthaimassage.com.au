@@ -21,7 +21,9 @@
 	<h3>Test 1</h3>
 	{% include "components/packages/packages-1.html" %}
 </div>
-
+{% if pack1 %}
+<h3>Package1 test</h3>
+{% endif %}
 
 {% if pack1 %}
 <h3>Package1</h3>
