@@ -19,7 +19,7 @@
 
 
 <div class="packagesummary">
-{% if post.data.content %}{{ post.data.content | safe }}{% endif %}
+{{ content | safe }}
 </div>
 <div class="packageprice">  
 {% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
