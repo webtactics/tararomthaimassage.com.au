@@ -905,7 +905,7 @@ span.timecostmin {min-width: 60px;display:inline-block;color: var(--primary50);}
 .NewsSummarySummaryHome {color:var(--text);padding:0;font-size:0.9rem;min-height: 73px;}
 .newssumbutton {  position: relative;
   bottom: 0.5rem;
-  right:0.5rem;
+  right:0;
   margin:0 ;}
 
 .NewsSummaryHome {
