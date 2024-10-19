@@ -29,10 +29,7 @@
 	{% include "components/packages/packages-1.html" %}
 {% endif %}
 
-<div class="packdesc">
-	<h3>Test 1</h3>
-	{% include "components/packages/packages-1.html" %}
-</div>
+
 {%- if pack1 -%}
 <h3>Package1 test</h3>
 {% endif %}
@@ -57,15 +54,27 @@
 {% endif %}
 
 
-{% if Package-1 %}
+{% if Package1 %}
 <h3>CrunchyFriedNoodles</h3>
 {% include "components/packages/packages-1.html" %}
 {% elif HokkienNoodles %}{% endif %}
 
 
 
+{% if ['Package-1'] %}
+<h3>CrunchyFriedNoodles</h3>
+{% include "components/packages/packages-1.html" %}
+{% elif HokkienNoodles %}{% endif %}
 
+{% if ['Package1'] %}
+<h3>CrunchyFriedNoodles2</h3>
+{% include "components/packages/packages-1.html" %}
+{% elif HokkienNoodles %}{% endif %}
 
+{% if ['pack1'] %}
+<h3>CrunchyFriedNoodles3</h3>
+{% include "components/packages/packages-1.html" %}
+{% elif HokkienNoodles %}{% endif %}
 
 
 {%- if (Package1) -%}
