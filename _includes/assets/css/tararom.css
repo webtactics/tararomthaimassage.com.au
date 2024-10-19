@@ -837,7 +837,7 @@ gap: 3rem;}
   grid-template-columns: 1fr;
   row-gap: 0;
   column-gap: 1rem;
-margin-bottom:2rem;}
+margin-bottom:1rem;}
 
   .grid-timecost-sidebar {
     grid-template-columns: 1fr 1fr;
@@ -895,7 +895,7 @@ span.timecostmin {min-width: 60px;display:inline-block;color: var(--primary50);}
 
 
 .NewsSummarySummaryHome {color:var(--text);padding:0;font-size:0.9rem;min-height: 73px;}
-.newssumbutton {margin:0;}
+.newssumbutton {margin:0 0 1rem 0;}
 
 .NewsSummaryHome {
   margin: 0;
