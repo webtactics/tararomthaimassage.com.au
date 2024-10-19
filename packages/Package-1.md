@@ -15,7 +15,7 @@ imageAlt: Package 1
 description: 90 minutes of massage including 60 minutes of Traditional Thai Massage plus 30 minutes of Aroma Oil Massage
 price: $95.00
 contenthtml: components/packages/package-1.html
-Package1: true
+pack1: true
 
 ---
 
