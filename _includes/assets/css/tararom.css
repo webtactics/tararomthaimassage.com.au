@@ -901,7 +901,8 @@ margin-bottom:1rem;}
   min-height: 66px;
 }
 
-.treatsumhomeprice, .promosumhomeprice {min-height:114px;}
+.promosumhomeprice {min-height:114px;}
+.treatsumhomeprice {min-height:124px;}
 
 .SummaryPrice {font-size:0.8rem;color:var(--primary);padding:0.25rem 0 0 0;display:block;min-height:100px;}
 .SummaryPrice h4 {margin:0;padding:0;line-height:1;}
