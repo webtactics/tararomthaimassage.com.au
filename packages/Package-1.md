@@ -1,11 +1,10 @@
 ---
 title: Package 1
 author: Paul Goldsmith
-date: 2023-05-19
+date: 2024-10-20
 tags: 
   - post
-  - Package-1
-  - Package1
+  - packages
 
 permalink: "/packages/Package-1/"
 

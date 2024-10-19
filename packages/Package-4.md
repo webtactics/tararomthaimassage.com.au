@@ -1,13 +1,17 @@
 ---
 title: Package 4
 author: Paul Goldsmith
-date: 2023-05-17
-tags: packages
+date: 2024-10-20
+tags: 
+  - post
+  - packages
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Sport-and-Deep-Tissue-Massage__Cy90wCeM.jpg
 imageAlt: Package 4
 description: 2 HOURS of massage including 60 minutes of Traditional Thai Massage plus 60 minutes of Remedial Deep Tissue Massage.
 price: $145.00
 gallery: components/package4.njk
+
+pack4: true
 ---
 
 **2 HOURS of massage including:**
