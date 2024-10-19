@@ -7,6 +7,8 @@ tags:
   - Package-1
   - Package1
 
+permalink: "/packages/Package-1/"
+
 
 
 
@@ -14,7 +16,10 @@ image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Mass
 imageAlt: Package 1
 description: 90 minutes of massage including 60 minutes of Traditional Thai Massage plus 30 minutes of Aroma Oil Massage
 price: $95.00
-contenthtml: components/packages/package-1.html
+contenthtml: 
+    <p><strong>90 minutes of massage including:</strong></p>
+    <p>60 minutes: <a title="Traditional Thai Massage" href="treatments/Traditional-Thai-Massage/">Traditional Thai Massage</a> plus<br>30 minutes: <a title="Aroma Oil Massage" href="treatments/Aromatherapy-Oil-Massage/">Aroma Oil Massage</a></p>
+
 pack1: true
 
 ---
