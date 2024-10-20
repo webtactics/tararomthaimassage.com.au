@@ -1,11 +1,12 @@
 ---
-title: Package 3
+title: Tararom Authentic Thai Massage St Marys Package 3
 author: Paul Goldsmith
 date: 2024-10-20
 tags: 
   - post
   - packages
-  - pack3
+
+permalink: "/packages/Package-3/"
 
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Hot-Coconut-Oil-Massage_q_DgdLvtM6.jpg
 imageAlt: Package 3
@@ -18,7 +19,5 @@ price: $135.00
 
 **2 HOURS of massage including:**
 
-60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
-60 minutes:  
-[Hot Coconut Oil Massage](https://tararom-thai.netlify.app/treatments/hot-coconut-oil-massage/)
+60 minutes:  [Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
+60 minutes:  [Hot Coconut Oil Massage](https://tararom-thai.netlify.app/treatments/hot-coconut-oil-massage/)

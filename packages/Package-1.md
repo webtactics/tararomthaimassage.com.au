@@ -1,11 +1,11 @@
 ---
-title: Package 1
+title: Tararom Authentic Thai Massage St Marys Package 1
 author: Paul Goldsmith
 date: 2024-10-20
 tags: 
   - post
   - packages
-  - pack1
+
 
 permalink: "/packages/Package-1/"
 
@@ -25,7 +25,5 @@ contenthtml1: components/packages/package-1.html
 
 **90 minutes of massage including:**
 
-60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
-30 minutes:  
-[Aroma Oil Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/)
+60 minutes:  [Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
+30 minutes:  [Aroma Oil Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/)

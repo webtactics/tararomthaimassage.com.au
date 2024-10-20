@@ -1,11 +1,12 @@
 ---
-title: Package 4
+title: Tararom Authentic Thai Massage St Marys Package 4
 author: Paul Goldsmith
 date: 2024-10-20
 tags: 
   - post
   - packages
-  - pack4
+
+permalink: "/packages/Package-4/"
 
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Sport-and-Deep-Tissue-Massage__Cy90wCeM.jpg
 imageAlt: Package 4
@@ -18,7 +19,5 @@ gallery: components/package4.njk
 
 **2 HOURS of massage including:**
 
-60 minutes:  
-[Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
-60 minutes:  
-[Remedial / Deep Tissue Massage](https://tararom-thai.netlify.app/treatments/remedial-deep-tissue-massage/)
+60 minutes:  [Traditional Thai Massage](https://tararom-thai.netlify.app/treatments/traditional-thai-massage/) plus  
+60 minutes:  [Remedial / Deep Tissue Massage](https://tararom-thai.netlify.app/treatments/remedial-deep-tissue-massage/)
