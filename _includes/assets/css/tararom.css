@@ -914,7 +914,7 @@ margin-bottom:1rem;}
 
 .timecostwrapper {color: var(--red);font-weight:bold;padding:0.5rem  0;}
 .grid-timecost-sidebar .timecostwrapper {color: var(--red);font-weight:bold;padding:0;}
-.detailpage-sidebar-summary-content-wrapper .pricelistsum {min-height: 3rem;}
+.detailpage-sidebar-summary-content-wrapper .pricelistsum {min-height: 2rem;}
 
 
 span.timecostmin {min-width: 60px;display:inline-block;color: var(--primary50);}
