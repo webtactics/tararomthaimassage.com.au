@@ -1,10 +1,19 @@
----
-layout: layouts/default.njk
-section: treatments
-class: treatments
----
+{% extends "layouts/default.njk" %}
 
+
+{% block content %}
+<section role="main" class="content">  
+     <div class="contentbox">{{ content | safe }}</div>
+
+<h2>Our Treatments and Massages</h2>
 {% set postslist = collections.treatments %}
 {% include "components/postslist-treatments.njk" %}
+  <h2>Weekly Promotions</h2>
+{% set postslist = collections.promotions | reverse %}
+{% include "components/postslist-promotions.njk" %}
 
-
+<h2>Special Massage Packages</h2>
+{% set postslist = collections.packages | reverse %}
+{% include "components/postslist-packages.njk" %}
+</section>
+{% endblock %}
