@@ -14,7 +14,7 @@ hasChildren: false
 ---
 
 
-<h3>We are located in St Marys only 10 minutes walk from the train station and we also have car parking at the rear shop.</h3>
+<h3>We are located in St Marys only 10 minutes walk from the train station. Handy car parking is located at the rear of the shop.</h3>
   
 
 <p><strong>Address:</strong> 234 Queen St. St.Marys NSW 2760</p>
