@@ -41,7 +41,7 @@ section: post
 </article>
 </div>
 <div class="sidebarwrapper">
-<aside>{% set postslist = collections.packages %}{% include "components/postslist-sidebar.njk" %}</aside>
+<aside>{% set postslist = collections.packages %}{% include "components/postslist-packages-sidebar.njk" %}</aside>
 </div>
 </div>
 
@@ -51,8 +51,8 @@ section: post
   {% if tags %}
     <div class="NewsSummaryPrice detail"><h4>Tags</h4>
     {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/treatments/{{ tag }}/{% endset %}
+      {%- if tag != "packages" -%}
+        {% set tagUrl %}/packages/{{ tag }}/{% endset %}
        <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
       {%- endif -%}
     {% endfor %}
