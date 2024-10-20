@@ -769,6 +769,7 @@ text-align: center;
   }
 
   .grid-4-columns.postlist-packages {gap:2rem;}
+
   .grid-5-columns {
     grid-template-columns: repeat(5, 1fr);
   }
