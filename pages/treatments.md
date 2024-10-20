@@ -1,8 +1,8 @@
 ---
 layout: layouts/massages.njk
 title: Our Treatments and Massages
-description: Descriptions of the massages we offer our clients and pricing information with links to more detailed massage descriptions.
-date: 2023-04-19
+description: We take massage seriously at Tararom Thai. Our therapists are trained in the art of Thai massage and provide a quality, clean and relaxing experience for our clients. We offer a range of massages to suit your needs.
+date: 2024-10-20
 permalink: /treatments/
 eleventyNavigation:
   key: Treatments
@@ -16,3 +16,4 @@ hasChildren: false
 Our therapists are trained in the art of Thai massage and provide a quality, clean and relaxing experience for our clients. 
 
 <strong>We offer a range of massages to suit your needs.</strong>
+
