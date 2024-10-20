@@ -1,7 +1,7 @@
 ---
 title: Monday - Tuesday Promotion
 author: Paul Goldsmith
-date: 2023-05-18
+date: 2024-10-18
 tags: promotions
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Tararom-Thai-Massage-2_PT6o_HcHH.jpg
 imageAlt: Monday - Tuesday Promotion

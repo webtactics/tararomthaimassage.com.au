@@ -1,7 +1,7 @@
 ---
 title: Thursday - Friday Promotion
 author: Paul Goldsmith
-date: 2023-05-17
+date: 2024-10-19
 tags: promotions
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/hot-herbal-ball-massage_3jl91s5RU.jpg
 imageAlt: Thursday - Friday Promotion
