@@ -18,9 +18,6 @@
 </div>
 
 
-{%- for post in collections.pack1 -%}
-<p class="postsumhome">{{ post.data.description }}</p>
-{%- endfor -%}
 
 <div class="packageprice">  
 {% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
