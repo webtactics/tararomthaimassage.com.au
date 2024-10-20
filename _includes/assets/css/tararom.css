@@ -732,7 +732,7 @@ text-align: center;
 
 .footerwrap p {
   color: var(--white);
-  font-size: 90%;
+
   
 }
 .footerwrap p a {
@@ -882,7 +882,7 @@ margin-bottom:1rem;}
    -o-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 }
-.promosumhome:hover, .treatsumhome:hover {
+.promosumhome:hover, .treatsumhome:hover, .packsumhome:hover {
    box-shadow: 0 2px 8px var(--grey);
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
