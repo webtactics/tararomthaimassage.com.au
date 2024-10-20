@@ -59,7 +59,7 @@ module.exports = function (eleventyConfig) {
     config.addPlugin(redirectsPlugin, {
       template: 'netlify'; // netlify, vercel or clientSide
     })
-  }
+  };
 
 
     // Minify HTML output
