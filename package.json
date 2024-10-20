@@ -32,6 +32,7 @@
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
-    "eleventy-plugin-metagen": "^1.8.3"
+    "eleventy-plugin-metagen": "^1.8.3",
+    "eleventy-plugin-redirects": "^1.0.0"
   }
 }

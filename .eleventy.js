@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const metagen = require('eleventy-plugin-metagen');
+const redirectsPlugin = require('eleventy-plugin-redirects');
 
 module.exports = function (eleventyConfig) {
   // Eleventy Navigation Plugin
@@ -52,6 +53,13 @@ module.exports = function (eleventyConfig) {
     return minified.code;
   });
 
+
+  // Redirects
+  module.exports = function(eleventyConfig) {
+    config.addPlugin(redirectsPlugin, {
+      template: 'netlify'; // netlify, vercel or clientSide
+    })
+  }
 
 
     // Minify HTML output
