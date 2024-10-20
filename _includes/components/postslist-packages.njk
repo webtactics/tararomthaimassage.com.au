@@ -17,30 +17,6 @@
 	<p class="postsumhome">{{ post.data.description }}</p>
 </div>
 
-{% if tags == "pack1" %}
-<h1 class="cat--title">Free Tools For SEO and More!</h1>
-{% endif %}
-
-
-
-{% if ['pack1 == true'] %}
-<h3>CrunchyFriedNoodles3</h3>
-{% include "components/packages/packages-1.html" %}
-{% elif HokkienNoodles %}{% endif %}
-
-{% if ['pack2'] %}
-<h3>Pack 2</h3>
-{% include "components/packages/packages-2.html" %}
-{% elif HokkienNoodles %}{% endif %}
-
-
-{%- if (package1) -%}
-<h1 class="cat--title">Free Tools For SEO and More!</h1>
-{%- else -%}{%- endif -%}
-{%- if (pack1) -%}
-<h1 class="cat--title">Free Tools For SEO and More!</h1>
-{%- else -%}{%- endif -%}
-
 
 <div class="packageprice">  
 {% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
