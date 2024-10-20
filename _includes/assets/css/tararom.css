@@ -850,7 +850,7 @@ margin-bottom:1rem;}
 
   .grid-timecost-sidebar {
     grid-template-columns: 1fr 1fr;
-    row-gap: 0.25rem;
+    row-gap: 0;
     column-gap: 1rem;}
 
 .CGBlogSummaryField {position:relative;text-align:center}
