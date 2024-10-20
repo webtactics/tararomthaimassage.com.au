@@ -1,15 +1,10 @@
 ---
 layout: layouts/default.njk
-section: contact
-class: contact
+section: treatments
+class: treatments
 ---
-<h1>{{ title }}</h1>
-
-{{ layoutContent | safe }}
-
-
 
 {% set postslist = collections.treatments %}
-{% include "components/postslist.njk" %}
+{% include "components/postslist-treatments.njk" %}
 
 
