@@ -1,5 +1,5 @@
 ---
-title: Tararom Authentic Thai Massage St Marys Package 2
+title: Tararom Massage Package 2
 author: Paul Goldsmith
 date: 2024-10-20
 tags: 

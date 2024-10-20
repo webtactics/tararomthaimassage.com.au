@@ -4,37 +4,34 @@ section: post
 ---
 
 
- <div class="grid-2-columns-2x1">
- <div class="detailwrapper">
+<div class="grid-2-columns-2x1">
+<div class="detailwrapper">
 <article>
 
 
 <div class="item blogdetail">
+
 <h1 class="heading-text">{{ title }}</h1>
 
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
-<div class="detailcontent">     
-{{ content | safe }}</div>
+
+<div class="detailcontent">{{ content | safe }}</div>
 
 
  <div class="NewsSummaryPrice detail"> 
  <h4>Pricing</h4>
-<div class="grid-timecost"> 
-{% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
-</div>	</div>	
+
+<div class="grid-timecost">{{ price }}</div>
+
+</div>	
+
 
   <h3>Health Fund Rebates Available:</h3>
   <p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
 
 
-
-
-
-
-
-
-<a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
+<a class="button blogdetail" href="/contact/" class="return-link">Make a booking</a>    
   
 <a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
 </div>
