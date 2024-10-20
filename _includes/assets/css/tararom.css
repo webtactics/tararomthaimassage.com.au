@@ -913,6 +913,8 @@ margin-bottom:1rem;}
 .detailpagesummary .SummaryPrice {font-size:0.75rem;color:var(--text);padding:0;}
 
 .timecostwrapper {color: var(--red);font-weight:bold;padding:0.5rem  0;}
+.grid-timecost-sidebar .timecostwrapper {color: var(--red);font-weight:bold;padding:0;}
+
 span.timecostmin {min-width: 60px;display:inline-block;color: var(--primary50);}
 
 
