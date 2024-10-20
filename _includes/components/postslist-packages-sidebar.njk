@@ -15,14 +15,17 @@
 </div>
 
 <div class="detailpage-sidebar-summary-content-wrapper">
+
 <div class="pricelistsum">
 <h3><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >{{ post.data.title }}</a></h3>
 </div>
+
 <div class="SummaryPrice sidebar">  
-<div class="grid-timecost-sidebar"> 
-{{ post.data.price }}
-</div>	</div>	
+<div class="grid-timecost-sidebar"><span class="red">{{ post.data.price }}</span></div>	
+</div>	
+
 </div>
+
 </div>
 </div>
 {% endfor %}
