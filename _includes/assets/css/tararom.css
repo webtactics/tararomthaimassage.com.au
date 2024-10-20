@@ -770,7 +770,7 @@ text-align: center;
   }
 
   .grid-4-columns.postlist-packages {gap:2rem;}
-  .grid-4-columns.gallery {gap:2rem;row-gap:2rem;}
+  .grid-4-columns.gallery {}
 
   .grid-5-columns {
     grid-template-columns: repeat(5, 1fr);
