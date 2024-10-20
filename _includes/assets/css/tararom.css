@@ -767,6 +767,8 @@ text-align: center;
   .grid-4-columns {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .grid-4-columns.postlist-packages {gap:2rem;}
   .grid-5-columns {
     grid-template-columns: repeat(5, 1fr);
   }
