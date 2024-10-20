@@ -17,12 +17,11 @@ hasChildren: false
 
   
 
-<p>Address: 234 Queen St. St.Marys NSW 2760</p>
-<p>Bookings: <a title="Call Tararom Authentic Thai Massage" href="tel:+61296233692">02 9623 3692</a>, or <a title="Call Tararom Authentic Thai Massage" href="tel:+61449212782">0449 212 782</a></p>
-<p>Open 7 Days : 9.30am - 8pm</p>
+<p><strong>Address:</strong> 234 Queen St. St.Marys NSW 2760</p>
+<p><strong>Bookings:</strong> <a title="Call Tararom Authentic Thai Massage" href="tel:+61296233692">02 9623 3692</a>, or <a title="Call Tararom Authentic Thai Massage" href="tel:+61449212782">0449 212 782</a></p>
+<p><strong>Trading Hours: </strong> Open 7 Days : 9.30am - 8pm</p>
 
 
 
 
-<h4>Health Fund Rebates Available:</h4>
-<p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
+
