@@ -1158,9 +1158,14 @@ button.button.success {cursor: pointer;}
 
 .gallerywrapper {margin:2rem auto;}
 
+.gallery img {
+	border: 1px solid #ebebeb;
+  padding:1rem;
+}
 
 
 .gallery img:hover {
+  padding:1rem;
 box-shadow: 0 0.15rem 0.5rem #333333;
     -webkit-transition: box-shadow 0.2s ease-in-out;
     -moz-transition: box-shadow 0.2s ease-in-out;
@@ -1169,9 +1174,6 @@ box-shadow: 0 0.15rem 0.5rem #333333;
  
 }
 
-.gallery img {
-	border: none;
-}
 
 .gallery .pagenavigation {
 	height: 50px;
