@@ -764,11 +764,13 @@ text-align: center;
   .grid-3-columns {
     grid-template-columns: repeat(3, 1fr);  gap: 2rem;
   }
+
   .grid-4-columns {
     grid-template-columns: repeat(4, 1fr);
   }
 
   .grid-4-columns.postlist-packages {gap:2rem;}
+  .grid-4-columns.gallery {gap:2rem;row-gap:2rem;}
 
   .grid-5-columns {
     grid-template-columns: repeat(5, 1fr);
