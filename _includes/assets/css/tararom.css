@@ -1447,3 +1447,4 @@ body.lb-disable-scrolling {
 }
 
 
+.red {color: var(--red);font-weight: bold;}
