@@ -27,7 +27,7 @@
 {% set postslist = collections.treatments %}
 {% include "components/postslist-treatments.njk" %}
   <h2>Weekly Promotions</h2>
-{% set postslist = collections.promotions %}
+{% set postslist = collections.promotions | reverse %}
 {% include "components/postslist-promotions.njk" %}
 
 <h2>Special Massage Packages</h2>
