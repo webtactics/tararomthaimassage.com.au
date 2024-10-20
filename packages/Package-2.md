@@ -13,7 +13,7 @@ imageAlt: Package 2
 description: 90 minutes of massage including 60 minutes of Aroma Relaxing Massage  plus 30 minutes of Foot Reflexology Massage.
 price: $105.00
 
-pack2: true
+
 ---
 
 **90 minutes of massage including:**

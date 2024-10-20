@@ -12,7 +12,7 @@ imageAlt: Package 3
 description: 2 HOURS of massage including 60 minutes of Traditional Thai Massage plus 60 minutes of Hot Coconut Oil Massage
 price: $135.00
 
-pack3: true
+
 ---
 
 
