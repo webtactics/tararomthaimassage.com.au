@@ -89,6 +89,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin/");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/tararom.css");
   eleventyConfig.addPassthroughCopy("_includes/assets/js/script.js");
+  eleventyConfig.addPassthroughCopy("_includes/assets/js/lightbox.js");
+  eleventyConfig.addPassthroughCopy("_includes/assets/js/slick.min.js");
   eleventyConfig.addPassthroughCopy("script.js");
 
   // Markdown plugins
