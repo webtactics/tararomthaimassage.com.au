@@ -1,14 +1,12 @@
 {% set js %}
 {% include "assets/js/script.js" %}
-{% include "assets/js/slick.min.js" %}
-{% include "assets/js/lightbox.js" %}
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js" integrity="sha512-2eijldKanOxzK54tvbFXDe51IxCAjOyYdJsb+XIcKFyLNm6TCgkn9UuX5phDdgRAknmhkKtOTDnvdJaznQ6Mjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 <script>
