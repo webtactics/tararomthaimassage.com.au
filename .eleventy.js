@@ -87,6 +87,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("static/assets");
   eleventyConfig.addPassthroughCopy("admin/");
+  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/tararom.css");
   eleventyConfig.addPassthroughCopy("_includes/assets/js/script.js");
   eleventyConfig.addPassthroughCopy("_includes/assets/js/lightbox.js");
