@@ -93,6 +93,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_includes/assets/js/lightbox.js");
   eleventyConfig.addPassthroughCopy("_includes/assets/js/slick.min.js");
   eleventyConfig.addPassthroughCopy("script.js");
+  eleventyConfig.addPassthroughCopy("**/*.jpg");
 
   // Markdown plugins
   let markdownIt = require("markdown-it");
